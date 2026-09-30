@@ -1,0 +1,2951 @@
+{
+  "schema_version": 1,
+  "status": "CONCEPT_ONLY",
+  "generator": "built-in image_gen backgrounds + deterministic Canvas 2D source-mask composition",
+  "model": "not exposed by tool; user authorized built-in fallback",
+  "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+  "examples": [
+    {
+      "id": "01-standard",
+      "title": "标准版本",
+      "category": "基础",
+      "rules": "1、12",
+      "panels": [
+        "主黑版",
+        "反白版",
+        "单色版",
+        "轮廓版",
+        "水印版",
+        "印章贴纸"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "简化、图标、轮廓须单独批准；不把研究图当母版。",
+      "image": "01-standard-v6.png",
+      "sha256": "81d006dfa5ebee8536f5d3f8a37e6c9d5a84b0fcaf4d2cb7e4b1903f751adb25",
+      "presentations": [
+        {
+          "label": "主黑版",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "反白版",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "单色版",
+          "type": "material",
+          "effect": "red",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "轮廓版",
+          "type": "material",
+          "effect": "outline",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "水印版",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth",
+          "layout": "watermark"
+        },
+        {
+          "label": "印章贴纸",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation"
+    },
+    {
+      "id": "02-color",
+      "title": "单色扩展",
+      "category": "基础",
+      "rules": "2.3、13.1",
+      "panels": [
+        "纯黑",
+        "纯白",
+        "深灰",
+        "浅灰",
+        "品牌红",
+        "专色荧光绿",
+        "单一金属色模拟"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "整枚单色，金属色模拟不等于真实专色或箔色。",
+      "image": "02-color-v6.png",
+      "sha256": "81d006dfa5ebee8536f5d3f8a37e6c9d5a84b0fcaf4d2cb7e4b1903f751adb25",
+      "presentations": [
+        {
+          "label": "纯黑",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "纯白",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "深灰",
+          "type": "material",
+          "effect": "gray",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "浅灰",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "品牌红",
+          "type": "material",
+          "effect": "red",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "专色荧光绿",
+          "type": "material",
+          "effect": "lime",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "单一金属色模拟",
+          "type": "material",
+          "effect": "gold",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "02-color.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "6638f7c27e096ed7bcc4225d0158f9f3b6292e2ad61c49468aa9feefc74b9819"
+    },
+    {
+      "id": "03-contrast",
+      "title": "反差与反色",
+      "category": "基础",
+      "rules": "2.1—2.4、13.2",
+      "panels": [
+        "黑／白",
+        "白／黑",
+        "深／浅",
+        "浅／深",
+        "彩色高反差",
+        "照片＋反差描边"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "检查覆盖区域的局部反差；复杂背景使用辅助层。",
+      "image": "03-contrast-v6.png",
+      "sha256": "81d006dfa5ebee8536f5d3f8a37e6c9d5a84b0fcaf4d2cb7e4b1903f751adb25",
+      "presentations": [
+        {
+          "label": "黑／白",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "白／黑",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "深／浅",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "浅／深",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "彩色高反差",
+          "type": "material",
+          "effect": "lime",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "照片＋反差描边",
+          "type": "mask",
+          "effect": "solid-edge",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "03-contrast.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "5b6410cd21984d36cebb0e7b37a7a3c152a15bee12db8032cc10050bee5b2344"
+    },
+    {
+      "id": "04-relationship",
+      "title": "正形、镂空与描边",
+      "category": "基础",
+      "rules": "3.1—3.4",
+      "panels": [
+        "实心正形",
+        "镂空负形",
+        "轮廓",
+        "填充＋描边"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "镂空需检查孤岛与连接桥，描边不能堵住负形。",
+      "image": "04-relationship-v6.png",
+      "sha256": "81d006dfa5ebee8536f5d3f8a37e6c9d5a84b0fcaf4d2cb7e4b1903f751adb25",
+      "presentations": [
+        {
+          "label": "实心正形",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "镂空负形",
+          "type": "mask",
+          "effect": "negative",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "轮廓",
+          "type": "material",
+          "effect": "outline",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "填充＋描边",
+          "type": "mask",
+          "effect": "solid-edge",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "04-relationship.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "7ade79ede2d8d798ab6f18e81cd8b1f85fed7b73d0528200e71eb5bea2853a0f"
+    },
+    {
+      "id": "05-print",
+      "title": "平面印刷",
+      "category": "工艺",
+      "rules": "4.1",
+      "panels": [
+        "纸张单黑",
+        "丝网印刷",
+        "数码印刷",
+        "UV 印刷",
+        "商品标签",
+        "封面与信封"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "区分介质与印法；正式稿需色彩和出血检查。",
+      "image": "05-print-v6.png",
+      "sha256": "655517c3f1e7ccb64cc6b5b3bc1e63355bedc07537f8ed883fef9115ac3fd09d",
+      "presentations": [
+        {
+          "label": "纸张单黑",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "丝网印刷",
+          "type": "material",
+          "effect": "white",
+          "background": "prop-shirt",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-shirt",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "数码印刷",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "UV 印刷",
+          "type": "material",
+          "effect": "white",
+          "background": "prop-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-glass",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "商品标签",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "封面与信封",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "05-print.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "56b1e8292a35ac79f5a7c2a301a24ac99411a85a23b760a32514f537d6c933a3"
+    },
+    {
+      "id": "06-emboss",
+      "title": "压凸与压凹",
+      "category": "工艺",
+      "rules": "4.2、13.3",
+      "panels": [
+        "纸面压凸",
+        "纸面压凹",
+        "皮革压纹",
+        "封面浮雕"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "供应商确认深度、最细线缝与材料，必须实物打样。",
+      "image": "06-emboss-v6.png",
+      "sha256": "8315286f24c1887416dbaccd02953a5075b0f52412bf4998e44774eaac7b25e9",
+      "presentations": [
+        {
+          "label": "纸面压凸",
+          "type": "material",
+          "effect": "emboss",
+          "background": "prop-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "纸面压凹",
+          "type": "material",
+          "effect": "deboss",
+          "background": "prop-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "皮革压纹",
+          "type": "material",
+          "effect": "emboss",
+          "background": "wall-fabric",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-fabric",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "封面浮雕",
+          "type": "material",
+          "effect": "emboss",
+          "background": "prop-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "06-emboss.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "a321151d9569d69639b5e03a0b36e55f96fbe81ea24b89985ad796ad040428e6"
+    },
+    {
+      "id": "07-foil",
+      "title": "烫箔系列",
+      "category": "工艺",
+      "rules": "4.3、13.3",
+      "panels": [
+        "亮金",
+        "哑金",
+        "玫瑰金",
+        "烫银",
+        "黑金",
+        "镭射箔",
+        "彩箔"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "烫金、烫银等箔版独立交付，选箔以实物为准。",
+      "image": "07-foil-v6.png",
+      "sha256": "088fa59f8e27c5c11294859f6e785c414489bce30db54578c19acdf0c65aa1ed",
+      "presentations": [
+        {
+          "label": "亮金",
+          "type": "material",
+          "effect": "gold",
+          "background": "prop-box",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-box",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "哑金",
+          "type": "material",
+          "effect": "gold",
+          "background": "prop-box",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-box",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "玫瑰金",
+          "type": "material",
+          "effect": "rose",
+          "background": "prop-box",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-box",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "烫银",
+          "type": "material",
+          "effect": "metal",
+          "background": "prop-box",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-box",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "黑金",
+          "type": "material",
+          "effect": "gold",
+          "background": "prop-box",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-box",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "镭射箔",
+          "type": "material",
+          "effect": "foil",
+          "background": "prop-box",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-box",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "彩箔",
+          "type": "material",
+          "effect": "foil",
+          "background": "prop-box",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-box",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "07-foil.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "keywords": [
+        "烫金",
+        "烫银",
+        "烫箔"
+      ],
+      "reference_sha256": "168d566d30fb673ac72d82301e3f72ba2c4e4e83074e9419fdbbedf718a0f62f"
+    },
+    {
+      "id": "08-metal",
+      "title": "金属加工",
+      "category": "工艺",
+      "rules": "4.4、13.3",
+      "panels": [
+        "蚀刻铭牌",
+        "激光雕刻",
+        "CNC 金属牌",
+        "冲压徽章"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "刀径、桥位、深度与边缘由生产方验证。",
+      "image": "08-metal-v6.png",
+      "sha256": "bd98bf8aa72302505ea2a135511830871c7fe52f550af9cec4b62d2c793880b7",
+      "presentations": [
+        {
+          "label": "蚀刻铭牌",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-metal",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-metal",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "激光雕刻",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-metal",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-metal",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "CNC 金属牌",
+          "type": "material",
+          "effect": "metal",
+          "background": "prop-box",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-box",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "冲压徽章",
+          "type": "material",
+          "effect": "metal",
+          "background": "prop-patch",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-patch",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "08-metal.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "c6f8fda6a0b84d913ea0f4d80caf6ce0be7e3995d9d9b5dd5304795474639460"
+    },
+    {
+      "id": "09-embroidery",
+      "title": "刺绣与绣章",
+      "category": "工艺",
+      "rules": "4.5、13.3",
+      "panels": [
+        "形状对照",
+        "单色平绣",
+        "撞色刺绣",
+        "毛巾绣",
+        "独立绣章"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "简化候选与针法独立制作，绣样确认后使用。",
+      "image": "09-embroidery-v6.png",
+      "sha256": "db1d4062ec764b82bac5024fd72649125771d2f1960638bc156dc7eff062c414",
+      "presentations": [
+        {
+          "label": "形状对照",
+          "type": "material",
+          "effect": "white",
+          "background": "prop-patch",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-patch",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "单色平绣",
+          "type": "material",
+          "effect": "thread",
+          "background": "prop-patch",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-patch",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "撞色刺绣",
+          "type": "material",
+          "effect": "thread",
+          "background": "prop-patch",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-patch",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "毛巾绣",
+          "type": "material",
+          "effect": "thread",
+          "background": "prop-shirt",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-shirt",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "独立绣章",
+          "type": "material",
+          "effect": "thread",
+          "background": "prop-patch",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-patch",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "09-embroidery.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "32a0bbb2974d0161125941a95bf9c324f7da4791a48c16326149c3e70a36c4e6"
+    },
+    {
+      "id": "10-rubber",
+      "title": "胶章与硅胶",
+      "category": "工艺",
+      "rules": "4.6、13.3",
+      "panels": [
+        "PVC 胶章",
+        "硅胶行李牌",
+        "橡胶浮雕",
+        "手机壳与钥匙扣"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "检查分层、间隙、厚度、连接与脱模。",
+      "image": "10-rubber-v6.png",
+      "sha256": "427329c6bda506d6f4245957d4bdaf18c80baa789be2a57af9318f61206f6360",
+      "presentations": [
+        {
+          "label": "PVC 胶章",
+          "type": "material",
+          "effect": "rubber",
+          "background": "prop-patch",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-patch",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "硅胶行李牌",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-rubber",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-rubber",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "橡胶浮雕",
+          "type": "material",
+          "effect": "rubber",
+          "background": "prop-patch",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-patch",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "手机壳与钥匙扣",
+          "type": "material",
+          "effect": "rubber",
+          "background": "prop-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-glass",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "10-rubber.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "e5cc2e8236ca5fe9b39b0a8bf87717df44e9948cd4b45bce5993500b524ad217"
+    },
+    {
+      "id": "11-light",
+      "title": "灯光与透明度",
+      "category": "工艺",
+      "rules": "4.7、13.4",
+      "panels": [
+        "平面无光",
+        "微弱发光",
+        "外发光",
+        "背发光",
+        "投影",
+        "半透明叠加"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "发光保留实心边缘；半透明检查内容干扰。",
+      "image": "11-light-v6.png",
+      "sha256": "59d74f981ff92a1d27f74ef24ff5b17f83f9686a4d5df4b06a413d6a06fb5c9d",
+      "presentations": [
+        {
+          "label": "平面无光",
+          "type": "material",
+          "effect": "white",
+          "background": "prop-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-glass",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "微弱发光",
+          "type": "material",
+          "effect": "neon",
+          "background": "prop-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-glass",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "外发光",
+          "type": "material",
+          "effect": "neon",
+          "background": "prop-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-glass",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "背发光",
+          "type": "material",
+          "effect": "neon",
+          "background": "prop-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-glass",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "投影",
+          "type": "material",
+          "effect": "neon",
+          "background": "prop-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-glass",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "半透明叠加",
+          "type": "material",
+          "effect": "gray",
+          "background": "prop-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-glass",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "11-light.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "e01966370bdef34738abcbc7e4dcba5ac7cf254ee6274b0cbd4ec1a00bef9263"
+    },
+    {
+      "id": "12-stencil",
+      "title": "模板、切割与投影",
+      "category": "工艺",
+      "rules": "4.8、3.2",
+      "panels": [
+        "喷漆漏版",
+        "镂空灯箱",
+        "舞台 gobo"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "切割桥位需工程设计，投影按实际距离测试。",
+      "image": "12-stencil-v6.png",
+      "sha256": "1a9a9651e37f9a5c43936b9d6decdd262be7aef355b3e977936c34db5bd971fd",
+      "presentations": [
+        {
+          "label": "喷漆漏版",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "镂空灯箱",
+          "type": "material",
+          "effect": "neon",
+          "background": "prop-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-glass",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "舞台 gobo",
+          "type": "material",
+          "effect": "neon",
+          "background": "prop-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-glass",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "12-stencil.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "db5c2baf312d177c34d28ee83a7ad118062b3e23c1a4c12b04592a04e43d8c21"
+    },
+    {
+      "id": "13-digital",
+      "title": "数字应用",
+      "category": "数字",
+      "rules": "5.1—5.5",
+      "panels": [
+        "方形头像",
+        "圆形头像",
+        "网页横幅",
+        "UI 图标",
+        "作品水印",
+        "片头末帧"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "头像保留安全区，图标单独批准；片头图仅为静态末帧。",
+      "image": "13-digital-v6.png",
+      "sha256": "887e9bc991b98a5164e6cda1e39e0a92284e54aa970f0998866b85136d85d002",
+      "presentations": [
+        {
+          "label": "方形头像",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.68
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "圆形头像",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.68
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth",
+          "layout": "avatar"
+        },
+        {
+          "label": "网页横幅",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "UI 图标",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.68
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "作品水印",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-fabric",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-fabric",
+          "render_type": "source-face-with-separate-raster-depth",
+          "layout": "watermark"
+        },
+        {
+          "label": "片头末帧",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation"
+    },
+    {
+      "id": "14-motion",
+      "title": "动效分镜",
+      "category": "数字",
+      "rules": "5.5、13.5",
+      "panels": [
+        "书写显现",
+        "墨块显现",
+        "描边转实心",
+        "角→主体→王冠",
+        "反色闪现",
+        "盖章显现",
+        "扫出",
+        "星点收尾"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "正式动画用批准图层与遮罩，末帧回到母版。",
+      "image": "14-motion-v6.png",
+      "sha256": "1a9a9651e37f9a5c43936b9d6decdd262be7aef355b3e977936c34db5bd971fd",
+      "presentations": [
+        {
+          "label": "书写显现",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "motion": "write",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "墨块显现",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "motion": "ink",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "描边转实心",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "motion": "outline",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "角→主体→王冠",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "motion": "parts",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "反色闪现",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "motion": "invert",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "盖章显现",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "motion": "stamp",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "扫出",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "motion": "wipe",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "星点收尾",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "motion": "stars",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "14-motion.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "bc926484ca71a4f994efba0bb59aaa560e746115c5f2dc9db9f45fbdc699f123"
+    },
+    {
+      "id": "15-background",
+      "title": "背景适配",
+      "category": "基础",
+      "rules": "6.1—6.4",
+      "panels": [
+        "纯色",
+        "渐变",
+        "照片直叠",
+        "照片描边",
+        "固定底板",
+        "半透明底板",
+        "模糊带",
+        "纹理"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "先保证轮廓可读，再保留背景信息。",
+      "image": "15-background-v6.png",
+      "sha256": "81d006dfa5ebee8536f5d3f8a37e6c9d5a84b0fcaf4d2cb7e4b1903f751adb25",
+      "presentations": [
+        {
+          "label": "纯色",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "渐变",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-color",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "照片直叠",
+          "type": "material",
+          "effect": "white",
+          "background": "city",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "city",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "照片描边",
+          "type": "mask",
+          "effect": "solid-edge",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "固定底板",
+          "type": "material",
+          "effect": "white",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth",
+          "layout": "plate"
+        },
+        {
+          "label": "半透明底板",
+          "type": "material",
+          "effect": "white",
+          "background": "prop-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-glass",
+          "render_type": "source-face-with-separate-raster-depth",
+          "layout": "glass-plate"
+        },
+        {
+          "label": "模糊带",
+          "type": "mask",
+          "effect": "frosted",
+          "background": "wall-print",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "纹理",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-fabric",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-fabric",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "15-background.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "7963e4cad36a39784758943105abad2f98a972c6c2899e5dbab94a9be5a445ef"
+    },
+    {
+      "id": "16-scale",
+      "title": "大、中、小与极小",
+      "category": "基础",
+      "rules": "7、15.5",
+      "panels": [
+        "大幅墙面",
+        "中型包装",
+        "小型头像"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "最小尺寸等待实测；放大图不能证明小尺寸可用。",
+      "image": "16-scale-v6.png",
+      "sha256": "1a9a9651e37f9a5c43936b9d6decdd262be7aef355b3e977936c34db5bd971fd",
+      "presentations": [
+        {
+          "label": "大幅墙面",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "中型包装",
+          "type": "material",
+          "effect": "white",
+          "background": "prop-box",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-box",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "小型头像",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.68
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation"
+    },
+    {
+      "id": "17-content",
+      "title": "内容层级",
+      "category": "基础",
+      "rules": "8.1—8.5",
+      "panels": [
+        "完整",
+        "印章框",
+        "重复纹样"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "每种减法为独立候选，纹样单元保持形状。",
+      "image": "17-content-v6.png",
+      "sha256": "81d006dfa5ebee8536f5d3f8a37e6c9d5a84b0fcaf4d2cb7e4b1903f751adb25",
+      "presentations": [
+        {
+          "label": "完整",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "印章框",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth",
+          "layout": "frame"
+        },
+        {
+          "label": "重复纹样",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth",
+          "layout": "repeat"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation"
+    },
+    {
+      "id": "18-placement",
+      "title": "位置与动势",
+      "category": "布局",
+      "rules": "9",
+      "panels": [
+        "居中",
+        "顶部角落",
+        "底部署名",
+        "大背景衬底"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "安全区按本体计算；倾斜仅作待批准应用研究。",
+      "image": "18-placement-v6.png",
+      "sha256": "1a9a9651e37f9a5c43936b9d6decdd262be7aef355b3e977936c34db5bd971fd",
+      "presentations": [
+        {
+          "label": "居中",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "顶部角落",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-metal",
+          "placement": {
+            "x": 0.27,
+            "y": 0.3,
+            "width": 0.45
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-metal",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "底部署名",
+          "type": "material",
+          "effect": "white",
+          "background": "prop-shirt",
+          "placement": {
+            "x": 0.5,
+            "y": 0.67,
+            "width": 0.6
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-shirt",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "大背景衬底",
+          "type": "material",
+          "effect": "white",
+          "background": "prop-shirt",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-shirt",
+          "render_type": "source-face-with-separate-raster-depth"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation"
+    },
+    {
+      "id": "19-combination",
+      "title": "组合关系",
+      "category": "布局",
+      "rules": "10",
+      "panels": [
+        "独立使用",
+        "角色并置",
+        "标题组合",
+        "底框与胶带"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "角色、标题与框分层，不侵入角、冠与负形。",
+      "image": "19-combination-v6.png",
+      "sha256": "f6649d8c7d27c2c1f35d24c9590da2fdbeec8ad05880221ab5ee49d4170cd5ef",
+      "presentations": [
+        {
+          "label": "独立使用",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "角色并置",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.32,
+            "y": 0.5,
+            "width": 0.56
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth",
+          "layout": "character"
+        },
+        {
+          "label": "标题组合",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.4,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth",
+          "layout": "title"
+        },
+        {
+          "label": "底框与胶带",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth",
+          "layout": "tape"
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "19-combination-v5.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "3a4a5529ba34f85764375abbec53684bc32bfc9d32e0aaae8a126d5be5f6690c"
+    },
+    {
+      "id": "20-style",
+      "title": "特殊风格",
+      "category": "风格",
+      "rules": "11.1—11.7",
+      "panels": [
+        "笔刷",
+        "干净平面",
+        "喷漆",
+        "印章",
+        "金属徽章",
+        "夜光／荧光",
+        "磨砂玻璃"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "check": "表面风格不重写字形；平面位图不等于矢量。",
+      "image": "20-style-v6.png",
+      "sha256": "1a9a9651e37f9a5c43936b9d6decdd262be7aef355b3e977936c34db5bd971fd",
+      "presentations": [
+        {
+          "label": "笔刷",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-poster",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-poster",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "干净平面",
+          "type": "material",
+          "effect": "black",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "喷漆",
+          "type": "material",
+          "effect": "white",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "wall-dark",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "印章",
+          "type": "material",
+          "effect": "black",
+          "background": "prop-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-paper",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "金属徽章",
+          "type": "material",
+          "effect": "metal",
+          "background": "prop-patch",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-patch",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "夜光／荧光",
+          "type": "material",
+          "effect": "neon",
+          "background": "prop-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Source-raster face, directional material illustration; not a manufacturing proof.",
+          "scene": "prop-glass",
+          "render_type": "source-face-with-separate-raster-depth"
+        },
+        {
+          "label": "磨砂玻璃",
+          "type": "mask",
+          "effect": "frosted",
+          "background": "wall-print",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        }
+      ],
+      "renderer": "Canvas 2D exact-source presentation",
+      "reference_image": "20-style.png",
+      "reference_status": "CONCEPT_ONLY material/context reference; not a silhouette source",
+      "reference_sha256": "b21ec7652bc2cd0c040a04ae1c0297766f91e74e670eea6bed0244102197020b"
+    },
+    {
+      "id": "22-levels",
+      "title": "复杂背景 C1—C5",
+      "category": "形状蒙版",
+      "rules": "新系统 §1—3、29—31",
+      "panels": [
+        "原图",
+        "C1 自动实色",
+        "C2 去色＋明度",
+        "C3 明度反相",
+        "C4 Difference",
+        "C5 磨砂"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "renderer": "Canvas 2D exact-source presentation",
+      "check": "按原稿正形处理同一背景。灰底失效须回退到实色；研究结果未经生产批准。",
+      "image": "22-levels-v6.png",
+      "sha256": "cc0bc666c6f0bb5ba37df419a8e27b4ce41e7529d7a93a05915a11da94f11806",
+      "presentations": [
+        {
+          "label": "原图",
+          "type": "mask",
+          "effect": "original",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "C1 自动实色",
+          "type": "mask",
+          "effect": "solid-auto",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "C2 去色＋明度",
+          "type": "mask",
+          "effect": "c2",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "C3 明度反相",
+          "type": "mask",
+          "effect": "luminance",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "C4 Difference",
+          "type": "mask",
+          "effect": "difference",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "C5 磨砂",
+          "type": "mask",
+          "effect": "frosted",
+          "background": "wall-print",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        }
+      ]
+    },
+    {
+      "id": "23-tone",
+      "title": "饱和度、明度与对比",
+      "category": "形状蒙版",
+      "rules": "新系统 §4—5、14",
+      "panels": [
+        "降饱和 50%",
+        "降饱和 80%",
+        "完全去色",
+        "去色＋明度",
+        "提亮",
+        "压暗",
+        "增加对比",
+        "降低对比"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "renderer": "Canvas 2D exact-source presentation",
+      "check": "按原稿正形处理同一背景。灰底失效须回退到实色；研究结果未经生产批准。",
+      "image": "23-tone-v6.png",
+      "sha256": "6d1454f0ccae8b6452237ebc95da27dee04909bb7440f746e3a56ae72a5a807d",
+      "presentations": [
+        {
+          "label": "降饱和 50%",
+          "type": "mask",
+          "effect": "desat50",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "降饱和 80%",
+          "type": "mask",
+          "effect": "desat80",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "完全去色",
+          "type": "mask",
+          "effect": "gray",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "去色＋明度",
+          "type": "mask",
+          "effect": "c2",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "提亮",
+          "type": "mask",
+          "effect": "bright",
+          "background": "wall-dark",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "压暗",
+          "type": "mask",
+          "effect": "dark",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "增加对比",
+          "type": "mask",
+          "effect": "contrast",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "降低对比",
+          "type": "mask",
+          "effect": "low-contrast",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        }
+      ]
+    },
+    {
+      "id": "24-inversion",
+      "title": "反相与混合",
+      "category": "形状蒙版",
+      "rules": "新系统 §6—10",
+      "panels": [
+        "原图",
+        "明度反相",
+        "RGB 负片",
+        "Difference：与负片同结果",
+        "Exclusion：灰层柔化",
+        "平滑局部反差"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "renderer": "Canvas 2D exact-source presentation",
+      "check": "按原稿正形处理同一背景。灰底失效须回退到实色；研究结果未经生产批准。",
+      "image": "24-inversion-v6.png",
+      "sha256": "47d9333e61834fa82abc33ca17f8dddb1d430fd5576c99a94cba36eb6b71174e",
+      "presentations": [
+        {
+          "label": "原图",
+          "type": "mask",
+          "effect": "original",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "明度反相",
+          "type": "mask",
+          "effect": "luminance",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "RGB 负片",
+          "type": "mask",
+          "effect": "negative",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "Difference：与负片同结果",
+          "type": "mask",
+          "effect": "difference",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "Exclusion：灰层柔化",
+          "type": "mask",
+          "effect": "exclusion",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "平滑局部反差",
+          "type": "mask",
+          "effect": "adaptive",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        }
+      ]
+    },
+    {
+      "id": "25-glass",
+      "title": "玻璃、磨砂与柔焦",
+      "category": "形状蒙版",
+      "rules": "新系统 §11—13、21—22",
+      "panels": [
+        "暗玻璃",
+        "白玻璃",
+        "磨砂",
+        "轻模糊",
+        "中模糊",
+        "模糊＋去色",
+        "模糊＋提亮",
+        "模糊＋压暗"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "renderer": "Canvas 2D exact-source presentation",
+      "check": "按原稿正形处理同一背景。灰底失效须回退到实色；研究结果未经生产批准。",
+      "image": "25-glass-v6.png",
+      "sha256": "617e4e4956b436c5f837a783cce10b7f43a4ac58e6e4eafbf2ab18dc3d9cb970",
+      "presentations": [
+        {
+          "label": "暗玻璃",
+          "type": "mask",
+          "effect": "dark-glass",
+          "background": "wall-print",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "白玻璃",
+          "type": "mask",
+          "effect": "white-glass",
+          "background": "wall-print",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "磨砂",
+          "type": "mask",
+          "effect": "frosted",
+          "background": "wall-print",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "轻模糊",
+          "type": "mask",
+          "effect": "blur-light",
+          "background": "wall-print",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "中模糊",
+          "type": "mask",
+          "effect": "blur",
+          "background": "wall-print",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "模糊＋去色",
+          "type": "mask",
+          "effect": "blur-gray",
+          "background": "wall-print",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "模糊＋提亮",
+          "type": "mask",
+          "effect": "blur-bright",
+          "background": "wall-print",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "模糊＋压暗",
+          "type": "mask",
+          "effect": "blur-dark",
+          "background": "wall-print",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        }
+      ]
+    },
+    {
+      "id": "26-chroma",
+      "title": "单色染色与色相",
+      "category": "形状蒙版",
+      "rules": "新系统 §15—16",
+      "panels": [
+        "魔红",
+        "魔紫",
+        "王金",
+        "夜蓝",
+        "墨绿",
+        "色相 +60°",
+        "色相 +90°",
+        "色相 +180°"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "renderer": "Canvas 2D exact-source presentation",
+      "check": "按原稿正形处理同一背景。灰底失效须回退到实色；研究结果未经生产批准。",
+      "image": "26-chroma-v6.png",
+      "sha256": "88d97870f16500a434c77168f5702d268859f33d12f870acc9a3d1d3ce158de7",
+      "presentations": [
+        {
+          "label": "魔红",
+          "type": "mask",
+          "effect": "tint-red",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "魔紫",
+          "type": "mask",
+          "effect": "tint-purple",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "王金",
+          "type": "mask",
+          "effect": "tint-gold",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "夜蓝",
+          "type": "mask",
+          "effect": "tint-blue",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "墨绿",
+          "type": "mask",
+          "effect": "tint-green",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "色相 +60°",
+          "type": "mask",
+          "effect": "hue60",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "色相 +90°",
+          "type": "mask",
+          "effect": "hue90",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "色相 +180°",
+          "type": "mask",
+          "effect": "hue180",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        }
+      ]
+    },
+    {
+      "id": "27-graphic",
+      "title": "黑白、色阶与双色",
+      "category": "形状蒙版",
+      "rules": "新系统 §17—20",
+      "panels": [
+        "高对比黑白",
+        "阈值二值化",
+        "2 级黑红",
+        "3 级紫白",
+        "4 级黑金",
+        "连续双色黑红",
+        "连续双色黑白",
+        "连续双色黑金",
+        "连续双色黑紫",
+        "连续双色蓝白"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "renderer": "Canvas 2D exact-source presentation",
+      "check": "按原稿正形处理同一背景。灰底失效须回退到实色；研究结果未经生产批准。",
+      "image": "27-graphic-v6.png",
+      "sha256": "f36becfc60eb41558eabf01da58130f42a4e634f4435e49737781402a3c06f57",
+      "presentations": [
+        {
+          "label": "高对比黑白",
+          "type": "mask",
+          "effect": "bw",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "阈值二值化",
+          "type": "mask",
+          "effect": "threshold",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "2 级黑红",
+          "type": "mask",
+          "effect": "poster2",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "3 级紫白",
+          "type": "mask",
+          "effect": "poster3",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "4 级黑金",
+          "type": "mask",
+          "effect": "poster4",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "连续双色黑红",
+          "type": "mask",
+          "effect": "duo-red",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "连续双色黑白",
+          "type": "mask",
+          "effect": "duo-white",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "连续双色黑金",
+          "type": "mask",
+          "effect": "duo-gold",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "连续双色黑紫",
+          "type": "mask",
+          "effect": "duo-purple",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "连续双色蓝白",
+          "type": "mask",
+          "effect": "duo-blue",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        }
+      ]
+    },
+    {
+      "id": "28-boundary",
+      "title": "边缘、Halo 与负形",
+      "category": "形状蒙版",
+      "rules": "新系统 §23—28",
+      "panels": [
+        "原图",
+        "原稿完整正形／白底为零",
+        "实色＋细保护边",
+        "蒙版＋细保护边",
+        "Halo：明确影响外围",
+        "孔洞与装饰一致规则"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "renderer": "Canvas 2D exact-source presentation",
+      "check": "边缘与 Halo 另标外围影响；其他蒙版不处理孔洞与外围。",
+      "image": "28-boundary-v6.png",
+      "sha256": "132e12fcd0cfa147d8c4c3a428f392c6bb66bce52abf7b05b80cd65b57bda80c",
+      "presentations": [
+        {
+          "label": "原图",
+          "type": "mask",
+          "effect": "original",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "原稿完整正形／白底为零",
+          "type": "mask",
+          "effect": "mask",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "实色＋细保护边",
+          "type": "mask",
+          "effect": "solid-edge",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "蒙版＋细保护边",
+          "type": "mask",
+          "effect": "edge",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "Halo：明确影响外围",
+          "type": "mask",
+          "effect": "halo",
+          "background": "wall-color",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "孔洞与装饰一致规则",
+          "type": "mask",
+          "effect": "negative",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        }
+      ]
+    },
+    {
+      "id": "29-context",
+      "title": "跨背景选择",
+      "category": "形状蒙版",
+      "rules": "新系统 §2、10、29—31",
+      "panels": [
+        "城市玻璃：去色与明度",
+        "浅色墙面：暗玻璃",
+        "跨明暗：平滑判断",
+        "灰底：实色可见"
+      ],
+      "prompt": "Built-in image_gen background assets from docs/MOTION_GENERATION.json; exact source raster composited with the per-item presentations recipes.",
+      "renderer": "Canvas 2D exact-source presentation",
+      "check": "按原稿正形处理同一背景。灰底失效须回退到实色；研究结果未经生产批准。",
+      "image": "29-context-v6.png",
+      "sha256": "695e16ac5be564cb38406245fc458a4558322466867fc610342731c6f93b5226",
+      "presentations": [
+        {
+          "label": "城市玻璃：去色与明度",
+          "type": "mask",
+          "effect": "c2",
+          "background": "wall-glass",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "浅色墙面：暗玻璃",
+          "type": "mask",
+          "effect": "dark-glass",
+          "background": "wall-paper",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "跨明暗：平滑判断",
+          "type": "mask",
+          "effect": "adaptive",
+          "background": "wall-split",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        },
+        {
+          "label": "灰底：实色可见",
+          "type": "mask",
+          "effect": "solid-auto",
+          "background": "gray",
+          "placement": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 0.79
+          },
+          "source": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+          "note": "Exact source raster mask; outside and holes unchanged except named edge/Halo aids."
+        }
+      ]
+    }
+  ],
+  "presentation_schema": 1,
+  "total_items": 161
+}

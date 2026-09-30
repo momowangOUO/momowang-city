@@ -1,0 +1,395 @@
+{
+  "generator": "built-in image_gen",
+  "model": "not exposed",
+  "status": "CONCEPT_ONLY",
+  "date": "2026-09-30",
+  "entries": [
+    {
+      "id": "city",
+      "prompt": "Create a high-fidelity desktop website SECTION concept, 16:9. This is one of four connected sections in an original 魔魔王 personal logo interactive graffiti city site. Art: 1990s Japanese cel animation with bold STREET GRAFFITI dominant, hand-inked architecture, angular black silhouettes, screenprint textures, torn paper, overspraying and pasted stickers overflowing section boundaries. Palette near-black navy #080b19, violet dusk, acid yellow #e5f16b, cyan #82d7e1, restrained coral graffiti only. No generic rounded cards, no repetitive boxes, no corporate dashboard, no male humans. Layout practical native HTML text/controls with separately generated layered art. No AI labels, fake data or extra marketing text. Reference 1 is EXACT logo shape do not redesign; in final implementation it will be composited from source. Reference 2 is heroine identity: young adult, black medium-long ivory-tipped hair, black hairclip, deadpan half-lidded eyes, black cyberpunk coat and pants, tiny cyan fittings, NO plaid, no red accessories. Hero CITY opening: vast luxurious graffiti cyberpunk city at violet dusk. Deep separate skyline layers, moving elevated train across midground, open purple sky occupies top half with original logo luminous ivory at upper left occupying 45%width, black-clad heroine at right occupying 42%width, visible face. White headline on rough navy paint patch lower left exactly 门已经开了。 then 资格暂时算你有。 Navigation at top graffiti wall text 城市 / 展场 / 蒙版墙 / 幕后档案 and small 暂停动效 control. Lower left two sticker buttons 进入展场 and 去蒙版墙. Foreground ripped concrete wall along bottom, neon utility robot, sprays and tape. View should clearly suggest layered animation, not static corporate banner.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-0fac048a-37f0-49e2-9226-05471eae2640.png",
+      "file": "docs/design/city-motion-concept.png",
+      "sha256": "4bc7d9563cdfcdb3fbbfcb63287cf7044bdf61aff30e38a7d67c4ddd502837fc"
+    },
+    {
+      "id": "showroom",
+      "prompt": "Create a high-fidelity desktop website SECTION concept, 16:9. This is one of four connected sections in an original 魔魔王 personal logo interactive graffiti city site. Art: 1990s Japanese cel animation with bold STREET GRAFFITI dominant, hand-inked architecture, angular black silhouettes, screenprint textures, torn paper, overspraying and pasted stickers overflowing section boundaries. Palette near-black navy #080b19, violet dusk, acid yellow #e5f16b, cyan #82d7e1, restrained coral graffiti only. No generic rounded cards, no repetitive boxes, no corporate dashboard, no male humans. Layout practical native HTML text/controls with separately generated layered art. No AI labels, fake data or extra marketing text. Reference 1 is EXACT logo shape do not redesign; in final implementation it will be composited from source. Reference 2 is heroine identity: young adult, black medium-long ivory-tipped hair, black hairclip, deadpan half-lidded eyes, black cyberpunk coat and pants, tiny cyan fittings, NO plaid, no red accessories. LOGO SHOWROOM, a huge dark painted concrete wall. At top left bold ivory Chinese heading 名字留在这里。 and secondary 其余的，交给夜色。 Under header a loose ripped-paper sticker category index horizontally. Center HUGE single exact original logo in brushed metal physical relief on a clear dark material surface with directional cyan lamp, covers 75%width and 55%height, front outline and crown/horns/holes fully readable. This is one big artwork, not grid thumbnails. Under art sticker controls 最佳呈现 / 同底对照 / 查看原图. Small previous/next arrows and selection label. Graffiti bursts and sticker scraps at perimeter only, diagonal torn paper bottom.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-1a1146c6-26c9-4816-9abe-94e609f18083.png",
+      "file": "docs/design/showroom-motion-concept.png",
+      "sha256": "cd2527c49dde6b7935522c4664b363c0d39a7f30743c6efb83dba902206ba008"
+    },
+    {
+      "id": "mask",
+      "prompt": "Create a high-fidelity desktop website SECTION concept, 16:9. This is one of four connected sections in an original 魔魔王 personal logo interactive graffiti city site. Art: 1990s Japanese cel animation with bold STREET GRAFFITI dominant, hand-inked architecture, angular black silhouettes, screenprint textures, torn paper, overspraying and pasted stickers overflowing section boundaries. Palette near-black navy #080b19, violet dusk, acid yellow #e5f16b, cyan #82d7e1, restrained coral graffiti only. No generic rounded cards, no repetitive boxes, no corporate dashboard, no male humans. Layout practical native HTML text/controls with separately generated layered art. No AI labels, fake data or extra marketing text. Reference 1 is EXACT logo shape do not redesign; in final implementation it will be composited from source. Reference 2 is heroine identity: young adult, black medium-long ivory-tipped hair, black hairclip, deadpan half-lidded eyes, black cyberpunk coat and pants, tiny cyan fittings, NO plaid, no red accessories. SHAPE MASK experiment wall. Heading upper left 墙没有变。 with subline 只是你看见了另一面。 A wide dominant 70%width colorful low-frequency clean graffiti wall rectangle with EXACT original logo visible as desaturated/brightened areas of same aligned background; no solid logo fill. Controls right on a raw pasted paper strip, labels 呈现方式, 换一面墙, 处理强度, 查看原图 and 下载示意图. Below artwork: stickers 同底对照 and 并排对照. Acid yellow torn paper and overspray bridge into next section. Highly legible airy artwork region amidst graffiti texture perimeter. No generic side panel border.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-394bf19f-3e63-48a6-9723-4306c5c858d4.png",
+      "file": "docs/design/mask-motion-concept.png",
+      "sha256": "4801444a592be9191635bc2f79b1d5b76e7670134688cb597565086ac7b3cf1f"
+    },
+    {
+      "id": "archive",
+      "prompt": "Create a high-fidelity desktop website SECTION concept, 16:9. This is one of four connected sections in an original 魔魔王 personal logo interactive graffiti city site. Art: 1990s Japanese cel animation with bold STREET GRAFFITI dominant, hand-inked architecture, angular black silhouettes, screenprint textures, torn paper, overspraying and pasted stickers overflowing section boundaries. Palette near-black navy #080b19, violet dusk, acid yellow #e5f16b, cyan #82d7e1, restrained coral graffiti only. No generic rounded cards, no repetitive boxes, no corporate dashboard, no male humans. Layout practical native HTML text/controls with separately generated layered art. No AI labels, fake data or extra marketing text. Reference 1 is EXACT logo shape do not redesign; in final implementation it will be composited from source. Reference 2 is heroine identity: young adult, black medium-long ivory-tipped hair, black hairclip, deadpan half-lidded eyes, black cyberpunk coat and pants, tiny cyan fittings, NO plaid, no red accessories. ARCHIVE final wall, no heroine necessary. Near-black raw concrete layered huge torn ivory posters and acid yellow tape, black graffiti brush shapes, utility robot perched at lower edge. Heading bold native type 到这里，别再装作路过。 Large handwritten-style wall sign 幕后档案. Three asymmetrically pasted paper links 原稿与工作台, 呈现规范, 素材与来源. A prominent rough-sticker native button 打开幕后档案. No tiny dashboard shown, original workbench is collapsed behind this entrance. Perimeter sprayed stars, peelingpaper, torn blackcloth, generous central quiet text region. City cables and cropped architectural pillar frame scene.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-6649acc3-4131-45ad-867f-71bc192f264f.png",
+      "file": "docs/design/archive-motion-concept.png",
+      "sha256": "f6257e5f58bf983e6460188f4b73e316601bcb868cf878830f0ee11cf295e31c"
+    },
+    {
+      "id": "wall-dark",
+      "prompt": "Production background asset for the attached original street-graffiti 1990s cel-animation website concept. Wide 16:9, full bleed flat front-facing wall plane, strong hand-inked cel background, navy/purple/cyan/acid yellow palette, grain. NO TEXT, NO LOGO, NO characters, NO symbolic lettering, NO UI. Center 85% must be calm enough for a large detailed Chinese logo later composited by code, graffiti confined to perimeter. Very dark charcoal painted concrete wall, subtle low-frequency surface, cyan grazing light from upper right, tiny acid yellow paint traces at far edges.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-e7e40189-4e8f-4337-9c98-ae0ea8f5cf4c.png",
+      "file": "gallery/public/city/motion/wall-dark.png",
+      "sha256": "9e4679d37c84e1e88410c0e3fe3eb85845480bc0570003c6f06488cccd5e3398"
+    },
+    {
+      "id": "wall-paper",
+      "prompt": "Production background asset for the attached original street-graffiti 1990s cel-animation website concept. Wide 16:9, full bleed flat front-facing wall plane, strong hand-inked cel background, navy/purple/cyan/acid yellow palette, grain. NO TEXT, NO LOGO, NO characters, NO symbolic lettering, NO UI. Center 85% must be calm enough for a large detailed Chinese logo later composited by code, graffiti confined to perimeter. Warm pale ivory layered paper wall, central clean offwhite paper large uninterrupted area, torn edges and charcoal faint grain, black paint traces far corners only.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-1f61a93d-8fca-4f6b-8755-4eb6d61f01c3.png",
+      "file": "gallery/public/city/motion/wall-paper.png",
+      "sha256": "6f2ce6f1d06ff8af00e7845f814ebc64607b8b9eb2eddd4341e2014370f1d90b"
+    },
+    {
+      "id": "wall-color",
+      "prompt": "Wide 16:9 front-facing flat wall background asset, 1990s cel-painted street-graffiti ink texture only at outermost 8% perimeter. ENTIRE CENTER 85% is VERY BRIGHT HIGHLY SATURATED almost NEON broad smooth color bands: luminous acid yellow left, brilliant turquoise center, warm pure orange right. Flat filled large color areas, NO dark blue, no black center. Central brightness high with clear strong chroma so converting areas to grayscale gives an extremely visible contrast. NO logo, NO symbols, NO words, NO people, no white paper frame, no website UI. One very clean broad low frequency brightly colored wall.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-d4939532-aa17-4aca-a5ba-aa08813c76bd.png",
+      "file": "gallery/public/city/motion/wall-color.png",
+      "sha256": "72775e18293db202728f3f9eeaf8a8a6ca6645908c256b652650fbf23b2031a9"
+    },
+    {
+      "id": "wall-split",
+      "prompt": "Production background asset for the attached original street-graffiti 1990s cel-animation website concept. Wide 16:9, full bleed flat front-facing wall plane, strong hand-inked cel background, navy/purple/cyan/acid yellow palette, grain. NO TEXT, NO LOGO, NO characters, NO symbolic lettering, NO UI. Center 85% must be calm enough for a large detailed Chinese logo later composited by code, graffiti confined to perimeter. Wide wall with bold bright ivory left half transitioning diagonally to deep near-black blue right half, one broad directional shadow boundary across center, no busy texture. Strong extremes not midgray.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-a6bc4d9d-1529-4f7b-b9d8-1a559431bb8e.png",
+      "file": "gallery/public/city/motion/wall-split.png",
+      "sha256": "f8683e757ebccfff71ffdf9efd480bfbf3c7f8d15f09ff72ba413d3db36f06a0"
+    },
+    {
+      "id": "wall-glass",
+      "prompt": "Production background asset for the attached original street-graffiti 1990s cel-animation website concept. Wide 16:9, full bleed flat front-facing wall plane, strong hand-inked cel background, navy/purple/cyan/acid yellow palette, grain. NO TEXT, NO LOGO, NO characters, NO symbolic lettering, NO UI. Center 85% must be calm enough for a large detailed Chinese logo later composited by code, graffiti confined to perimeter. Front-facing glass lightbox with turquoise backlight, moderate clean narrow frosted vertical glass ribs and soft defocused color blocks behind, medium fine detail for blur comparison, no writing.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-bc7d8c4a-93b2-46b0-b139-7ff5828b5219.png",
+      "file": "gallery/public/city/motion/wall-glass.png",
+      "sha256": "3dff070dc474396fdcbbff9366555e1eb8405a60eb4928be0408d9b7e4823064"
+    },
+    {
+      "id": "wall-print",
+      "prompt": "Wide 16:9 FULL-FRAME brightly lit graphic print texture for a blur-mask experiment. Medium-fine clean repeating diagonal INK stripes, offwhite with cobalt and turquoise bands about 10-16 pixels wide at full image resolution, slight celluloid screenprint texture, thin straight line artwork over most of frame, not busy graffiti in center. A few broad warm yellow and pink underprinted blocks create restrained color variation. Must have clear spatial detail to blur against, no giant flat dark areas. 1990s Japanese graphic print vibe, no humans, NO text or LOGO. Outer 5% ragged paper edge optional, center is uniform printed lines.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-40b77eb4-de7a-4f98-b7f6-89f7a1d7eeeb.png",
+      "file": "gallery/public/city/motion/wall-print.png",
+      "sha256": "b35396f6025a704d9d7699228289a4ea8b42a966bf576b10cca942fdfbbbb2af"
+    },
+    {
+      "id": "wall-metal",
+      "prompt": "Production background asset for the attached original street-graffiti 1990s cel-animation website concept. Wide 16:9, full bleed flat front-facing wall plane, strong hand-inked cel background, navy/purple/cyan/acid yellow palette, grain. NO TEXT, NO LOGO, NO characters, NO symbolic lettering, NO UI. Center 85% must be calm enough for a large detailed Chinese logo later composited by code, graffiti confined to perimeter. Brushed silver gunmetal tabletop plane front facing, directional light silver highlights and dark blue shadows broad diagonal streaks, subtle machined grain, crisp material with clean central space.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-051a378e-f76a-4fb1-bc14-aa7e4ae3747b.png",
+      "file": "gallery/public/city/motion/wall-metal.png",
+      "sha256": "62620402f20fc1ade69dea86dcf92b8082c5179bd46ec4d68db3726db9f95109"
+    },
+    {
+      "id": "wall-fabric",
+      "prompt": "Production background asset for the attached original street-graffiti 1990s cel-animation website concept. Wide 16:9, full bleed flat front-facing wall plane, strong hand-inked cel background, navy/purple/cyan/acid yellow palette, grain. NO TEXT, NO LOGO, NO characters, NO symbolic lettering, NO UI. Center 85% must be calm enough for a large detailed Chinese logo later composited by code, graffiti confined to perimeter. Black charcoal woven fabric filling frame, gentle broad folds with directional muted cyan grazing light, weave visible at close range, no graphics or insignia.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-47c980ad-fadf-4c35-9770-6b95cec00dfc.png",
+      "file": "gallery/public/city/motion/wall-fabric.png",
+      "sha256": "fe34a5088040ff44f6170306b240cb54be7018c47ef8e066281a6ed069efd787"
+    },
+    {
+      "id": "city-layers",
+      "prompt": "Create a production TRANSPARENT RGBA sprite atlas, 2 columns x 4 rows, EXACT evenly sized grid cells with generous transparent gutters, no borders no captions. Original 1990s hand-inked cel-animation cyberpunk STREET GRAFFITI art matching reference. 8 SEPARATE cutouts, each wholly within its own cell. Row1 left distant violet skyscraper skyline panorama, row1 right closer dark blue graffiti skyscraper skyline panorama. Row2 left long dark foreground rooftop railing with graffiti wall bottom, row2 right long side-view cyan-window elevated metro train. Row3 left long flat wispy pink cel-painted cloud bank, row3 right long translucent violet fog bank. Row4 left rectangular blue neon street sign with abstract unreadable marks, row4 right small cute squat black utility robot with acid yellow trim and two cyan eye lights. Sky absent, all areas around sprites alpha transparent. NO PEOPLE, NO LOGO, no readable text. Wide sprite silhouettes kept whole, don't fuse cells.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-bd8d5dad-ec24-4054-9e54-43581d32024c.png",
+      "file": "gallery/public/city/motion/city-layers.png",
+      "sha256": "126eb78315883954034e6a9567da30d1554cdb4d0b8f3a62ccf58c37779a92bb"
+    },
+    {
+      "id": "graffiti-parts",
+      "prompt": "Production TRANSPARENT RGBA decorative asset atlas, 2 columns x 5 rows, 10 separate elements in EXACT equal grid cells, generous empty transparent gutters, NO labels, NO text, NO logo. 1990s anime street graffiti screenprint textures matching attached section concept. Row1 left wide rough torn IVORY paper patch, right torn near-BLACK paper patch; row2 left ACID YELLOW torn paper patch, right CYAN torn paper patch; row3 left long diagonally striped black/yellow adhesive tape, right expressive cyan aerosol splash/brushstroke; row4 left acid yellow aerosol splash/brushstroke, right scratched dark METAL nameplate with screws only at corners; row5 left cute black graffiti-cat sticker with tiny crown, right wide jagged ripped CONCRETE/paper transition edge with dark blue underside. Keep all sprites fully separate and entirely in cells; center of paper and metal plates blank usable for real HTML text.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-9b027857-b34d-426f-a1e2-25bf16201f43.png",
+      "file": "gallery/public/city/motion/graffiti-parts.png",
+      "sha256": "07528d59add23639b0e8f5c22cd8a4f019cf4b74725e53213ee0a0b5d31d6515"
+    },
+    {
+      "id": "city-sky",
+      "prompt": "Wide 16:9 background asset of an extravagant cyberpunk city SKY ONLY for the attached city concept. Violet dusk gradient hand painted flat cel animation, pink muted cloud wisps only far perimeter, open clean upper left sky for compositing exact logo later, no sun flare. NO buildings, no text, no logo, no characters, no interface. 1990s handpainted anime film background grain, street graffiti palette violet navy soft dusty pink. Full bleed opaque sky.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-0ef38442-bdaf-4621-b610-7d77872bb6f4.png",
+      "file": "gallery/public/city/motion/city-sky.png",
+      "sha256": "3dabe349115e377c5a0112b1e9a813d689305d206263a6ff9238a32cefb7a00c"
+    },
+    {
+      "id": "heroine-rig",
+      "prompt": "Create a transparent-background production character cutout for animation, same EXACT young adult woman identity as second reference. Full body neutral standing 3/4 nearly front pose, head facing viewer enough BOTH eyes visible. Medium-long black hair with ivory tips, BLACK X hairclip, cold deadpan mouth and half-lidded emotionless eyes, small cyan irises. All-black oversized cyberpunk coat with chunky buckles and loose black pants, subtle gothic lace cuffs, tiny cyan fittings. No red, no plaid, no smile, no men. Clean 1990s cel shading, thick crisp ink line, dry screenprint finish. Arms relaxed, black spray can one hand. Entire silhouette inside frame. IMPORTANT for later rigging: hair ends extend independently beyond shoulders to left/right; two coat hems flare separately outside legs, easily separable by contours. Strict transparent alpha background, no glow or shadow haze behind character. No logo. Preserve reference identity, not a new outfit.",
+      "path": "C:\\Users\\liyian.andy\\.codex\\generated_images\\01a0e6dc-7662-77e1-af5d-c43843c61c0b\\exec-0a64d3ee-8ab9-430c-99ed-cc6c4410d130.png",
+      "file": "gallery/public/city/motion/heroine-rig.png",
+      "sha256": "1a682590bf8a2e30123b6cd6079b7481e35e9c42c05021d98aba1d3ff0ee7fbe"
+    },
+    {
+      "id": "restored-city",
+      "file": "gallery/public/city/motion/restored-city.png",
+      "prompt": "Edit this exact approved website art. Output same 16:9 composition and resolution. STRICT art preservation, NOT a redesign. Retain every building, pink clouds, bridge, train, graffiti foreground wall, robot with crown at bottom center, black cat sticker, spray cans, color, paint texture, perspective, density, and the portrait billboard at right. REMOVE only: (1) the large ivory Chinese signature in the upper LEFT sky, replace just those pixels with matching sky and distant city; (2) all website UI text: top navigation words and pause control, the Chinese slogan on the lower-left navy graffiti patch, the labels inside the yellow and cyan paper buttons. Keep the navy paint patch and two blank colored paper buttons and crown decoration, preserve graffiti shapes. (3) remove the large SEATED foreground woman on the right so she can be overlaid later as an independently animated exact transparent cutout; reconstruct the city/wall behind her. Keep the tiny robot, cat and objects. Do not introduce new objects, new architecture style or typography. Do not simplify the city, do not replace the scene, no new signature anywhere. Result is the exact same richly detailed graffiti/cel city with empty places for native text and exact-source logo and seated heroine.",
+      "tool": "built-in image_gen",
+      "model": "not exposed",
+      "reference": "docs/design/city-motion-concept.png",
+      "use": "Approved city art with native-text/character regions cleared",
+      "sha256": "481160b158eae0aed1422b0998618f452dedb6e310eb0335df1baedf0921321a"
+    },
+    {
+      "id": "seated-heroine",
+      "file": "gallery/public/city/motion/seated-heroine.png",
+      "prompt": "Extract ONLY the exact seated foreground adult anime woman from this supplied approved illustration onto a truly transparent background. This is a cutout extraction, NOT a redesign or new pose. Keep the precise black hair with ivory ends, black X clip, reddish brown large half-lidded irises, deadpan face, all black cyberpunk coat, chain, lace cuffs, black spray can in her hand, raised bent knee, huge black boot, fingers and pose exactly. Preserve exact linework, cel shadows and original proportions. Retain her original position on the RIGHT of the 1672x941 wide 16:9 canvas, head near x1220 y240, body extends to right/bottom edge as reference. Left 55% completely transparent. NO city, NO walls, no robot, no cat, no lettering, no logo, no background, no glow halo around body. Fine hair edge alpha. Do not shrink to center, don't change eye shape, do not make round googly eyes. Landscape transparent image.",
+      "tool": "built-in image_gen",
+      "model": "not exposed",
+      "reference": "docs/design/city-motion-concept.png",
+      "use": "Original seated pose cutout; native pixel eye tracking",
+      "sha256": "0bf358b4b25c59cfeca9e81e0c047827932ee8955ed9960162a3a9bc804a74ca"
+    },
+    {
+      "id": "city-rail-backplate",
+      "file": "gallery/public/city/motion/city-rail-backplate.png",
+      "prompt": "Edit the provided approved 1672x941 cyberpunk graffiti anime city illustration. Preserve EXACT camera, city buildings, sharp architectural linework, pink purple colors, sky clouds, moon, foreground wall and empty navy/cyan/yellow graffiti patches, robot and cat. ONLY remove the long foreground passenger train running diagonally from left edge around y310 down to right at y560. Leave its steel elevated railway bridge, tracks and all support structure in exactly the same places. Inpaint the narrow space formerly occupied by train with the appropriately aligned background city architecture. This is a clean animation backplate so the original train can be separately composited and move along this railway. No new words, no logo, no people, no blur, no other design changes. Match original pixel composition and canvas.",
+      "sha256": "9ff2a3f3a6a7808db0e04745eda9fb83e7a31f067f008070b92c9fb5bcc2529c"
+    },
+    {
+      "id": "cloud-wisps",
+      "file": "gallery/public/city/motion/cloud-wisps.png",
+      "prompt": "A wide horizontal isolated cloud bank for an existing 1990s anime cyberpunk night city scene. Transparent background. ONLY a thin irregular bank of sharp cel-shaded pink lavender cumulus cloud fragments and wind-torn wisps. Hard hand-inked irregular silhouettes, restrained mauve shadow planes, dusty rose lit edges. Asymmetrical scattered airy puffs across a 3:1 width, lots of transparent gaps and fully transparent perimeter on all sides. NOT fog, NOT smoke, NOT flat ribbons, NOT horizon, NO buildings, NO sky fill, NO moon, NO scenery, NO lettering, NO logo. Suitable as a slow moving overlay in the upper sky of the reference. Preserve its hand-drawn sharp graffiti anime aesthetic.",
+      "sha256": "8922bbb49e40f68e645afdf38aa73592807ca17f29ab84d748eecbb6499961f0"
+    },
+    {
+      "id": "prop-box-hd",
+      "file": "gallery/public/city/motion/prop-box-hd.png",
+      "prompt": "Create one standalone high-resolution 2400 by 1600 landscape image, aspect ratio 3:2, for a large website material showcase. ONE large black presentation plaque, aged ink-black finely grained surface, thin crisp gold bevel edging, no letters. Entire plaque centered straight-on, occupying 88% width and 82% height; wide enough unobstructed inner field for a logo. Style reference: supplied image is ONLY a style and material reference; NEVER reproduce its multi-panel layout. Render ONLY this one subject full-frame, NO panels or grid, NO collage. Match the crisp 1990s anime cel-shaded street graffiti illustration style, dark navy urban surround with small acid yellow and cyan paint marks at the margins. The dominant logo-placement surface must be evenly framed and large, not a thin horizontal crop. Extremely sharp ink linework and fine surface detail across the entire scene, deep focus; NO depth-of-field, bokeh, blur, soft focus, blurry textures, motion blur, illegible writing, logo or signature. The central field stays blank for separately compositing the real logo.",
+      "tool": "built-in image_gen",
+      "model": "not exposed",
+      "sha256": "596822eb51258d7b5a3970cd7e1010826040be582e6cb8f668b26cd33cb136f7"
+    },
+    {
+      "id": "prop-metal-hd",
+      "file": "gallery/public/city/motion/prop-metal-hd.png",
+      "prompt": "Create one standalone high-resolution 2400 by 1600 landscape image, aspect ratio 3:2, for a large website material showcase. ONE brushed silver rectangular metal nameplate with four small screws at corners, centered straight-on, occupies 88% width and 80% height. Sharp etched brushed-metal grain with a subtle directional highlight, entirely blank center. Style reference: supplied image is ONLY a style and material reference; NEVER reproduce its multi-panel layout. Render ONLY this one subject full-frame, NO panels or grid, NO collage. Match the crisp 1990s anime cel-shaded street graffiti illustration style, dark navy urban surround with small acid yellow and cyan paint marks at the margins. The dominant logo-placement surface must be evenly framed and large, not a thin horizontal crop. Extremely sharp ink linework and fine surface detail across the entire scene, deep focus; NO depth-of-field, bokeh, blur, soft focus, blurry textures, motion blur, illegible writing, logo or signature. The central field stays blank for separately compositing the real logo.",
+      "tool": "built-in image_gen",
+      "model": "not exposed",
+      "sha256": "2809d606ff458ffd867c39258b55630a9e9b11a11723e6fca85fbd2295177687"
+    },
+    {
+      "id": "prop-paper-hd",
+      "file": "gallery/public/city/motion/prop-paper-hd.png",
+      "prompt": "Create one standalone high-resolution 2400 by 1600 landscape image, aspect ratio 3:2, for a large website material showcase. ONE oversized warm ivory heavy cotton paper/envelope, subtle crisp fibers, straight-on centered front view, blank printable surface occupies 90% width and 82% height; small envelope flap detail only along upper edge. Style reference: supplied image is ONLY a style and material reference; NEVER reproduce its multi-panel layout. Render ONLY this one subject full-frame, NO panels or grid, NO collage. Match the crisp 1990s anime cel-shaded street graffiti illustration style, dark navy urban surround with small acid yellow and cyan paint marks at the margins. The dominant logo-placement surface must be evenly framed and large, not a thin horizontal crop. Extremely sharp ink linework and fine surface detail across the entire scene, deep focus; NO depth-of-field, bokeh, blur, soft focus, blurry textures, motion blur, illegible writing, logo or signature. The central field stays blank for separately compositing the real logo.",
+      "tool": "built-in image_gen",
+      "model": "not exposed",
+      "sha256": "4c5a01ecce4b12ebb21b28880a4b0b6754258c7f409370679901b6e795c2f5a3"
+    },
+    {
+      "id": "prop-patch-hd",
+      "file": "gallery/public/city/motion/prop-patch-hd.png",
+      "prompt": "Create one standalone high-resolution 2400 by 1600 landscape image, aspect ratio 3:2, for a large website material showcase. ONE large black rectangular embroidered fabric patch with clear stitched beige border, sharp tiny woven threads, straight-on centered, blank area occupies 85% width and 80% height. Slight weathering, no logo. Style reference: supplied image is ONLY a style and material reference; NEVER reproduce its multi-panel layout. Render ONLY this one subject full-frame, NO panels or grid, NO collage. Match the crisp 1990s anime cel-shaded street graffiti illustration style, dark navy urban surround with small acid yellow and cyan paint marks at the margins. The dominant logo-placement surface must be evenly framed and large, not a thin horizontal crop. Extremely sharp ink linework and fine surface detail across the entire scene, deep focus; NO depth-of-field, bokeh, blur, soft focus, blurry textures, motion blur, illegible writing, logo or signature. The central field stays blank for separately compositing the real logo.",
+      "tool": "built-in image_gen",
+      "model": "not exposed",
+      "sha256": "0220adb28f4a5fc673b67f4e73e19e5dedca33a7e2b957911ea6a7b7b4ce3856"
+    },
+    {
+      "id": "prop-rubber-hd",
+      "file": "gallery/public/city/motion/prop-rubber-hd.png",
+      "prompt": "Create one standalone high-resolution 2400 by 1600 landscape image, aspect ratio 3:2, for a large website material showcase. ONE cyan-blue rectangular soft rubber luggage tag, black side strap at very left edge, crisp raised blank perimeter, subtly stippled material, central blank face occupies 83% width and 76% height, straight-on. Style reference: supplied image is ONLY a style and material reference; NEVER reproduce its multi-panel layout. Render ONLY this one subject full-frame, NO panels or grid, NO collage. Match the crisp 1990s anime cel-shaded street graffiti illustration style, dark navy urban surround with small acid yellow and cyan paint marks at the margins. The dominant logo-placement surface must be evenly framed and large, not a thin horizontal crop. Extremely sharp ink linework and fine surface detail across the entire scene, deep focus; NO depth-of-field, bokeh, blur, soft focus, blurry textures, motion blur, illegible writing, logo or signature. The central field stays blank for separately compositing the real logo.",
+      "tool": "built-in image_gen",
+      "model": "not exposed",
+      "sha256": "4005e04de037e2a5388d3a465625c7fe0590c6436311e041db450da1f169b073"
+    },
+    {
+      "id": "prop-glass-hd",
+      "file": "gallery/public/city/motion/prop-glass-hd.png",
+      "prompt": "Create one standalone high-resolution 2400 by 1600 landscape image, aspect ratio 3:2, for a large website material showcase. ONE perfectly clear rectangular glass sign with four metal corner fasteners, front-on, 88% width and 80% height. Behind the unprinted center is a sharply drawn cyberpunk city of small black building silhouettes and cyan/pink windows. Everything crisp including the background, deep focus, no frosted surface or blur. Style reference: supplied image is ONLY a style and material reference; NEVER reproduce its multi-panel layout. Render ONLY this one subject full-frame, NO panels or grid, NO collage. Match the crisp 1990s anime cel-shaded street graffiti illustration style, dark navy urban surround with small acid yellow and cyan paint marks at the margins. The dominant logo-placement surface must be evenly framed and large, not a thin horizontal crop. Extremely sharp ink linework and fine surface detail across the entire scene, deep focus; NO depth-of-field, bokeh, blur, soft focus, blurry textures, motion blur, illegible writing, logo or signature. The central field stays blank for separately compositing the real logo.",
+      "tool": "built-in image_gen",
+      "model": "not exposed",
+      "sha256": "4de5f8abd10bc61a9b85834c8408ddd791b7ee0aadd8c0c71735eeb41256b1b1"
+    },
+    {
+      "id": "prop-shirt-hd",
+      "file": "gallery/public/city/motion/prop-shirt-hd.png",
+      "prompt": "Create one standalone high-resolution 2400 by 1600 landscape image, aspect ratio 3:2, for a large website material showcase. ONE black oversized T-shirt hanging front-on against a graffiti wall, the chest fills most of the frame, neckline visible near top and shoulders near corners, sharp cotton weave, broad completely blank chest with only subtle folds around edges. No person. Style reference: supplied image is ONLY a style and material reference; NEVER reproduce its multi-panel layout. Render ONLY this one subject full-frame, NO panels or grid, NO collage. Match the crisp 1990s anime cel-shaded street graffiti illustration style, dark navy urban surround with small acid yellow and cyan paint marks at the margins. The dominant logo-placement surface must be evenly framed and large, not a thin horizontal crop. Extremely sharp ink linework and fine surface detail across the entire scene, deep focus; NO depth-of-field, bokeh, blur, soft focus, blurry textures, motion blur, illegible writing, logo or signature. The central field stays blank for separately compositing the real logo.",
+      "tool": "built-in image_gen",
+      "model": "not exposed",
+      "sha256": "5d6c45de187e85fba7a4215fe714bebd5d4d56c0a8b870b2ca1c2cf2524769e7"
+    },
+    {
+      "id": "prop-poster-hd",
+      "file": "gallery/public/city/motion/prop-poster-hd.png",
+      "prompt": "Create one standalone high-resolution 2400 by 1600 landscape image, aspect ratio 3:2, for a large website material showcase. ONE blank ivory torn-edge poster held by four pieces of yellow tape on a blue-black graffiti brick wall, front-on, printable blank paper occupies 88% width and 82% height, sharp fibers and paper creases. Style reference: supplied image is ONLY a style and material reference; NEVER reproduce its multi-panel layout. Render ONLY this one subject full-frame, NO panels or grid, NO collage. Match the crisp 1990s anime cel-shaded street graffiti illustration style, dark navy urban surround with small acid yellow and cyan paint marks at the margins. The dominant logo-placement surface must be evenly framed and large, not a thin horizontal crop. Extremely sharp ink linework and fine surface detail across the entire scene, deep focus; NO depth-of-field, bokeh, blur, soft focus, blurry textures, motion blur, illegible writing, logo or signature. The central field stays blank for separately compositing the real logo.",
+      "tool": "built-in image_gen",
+      "model": "not exposed",
+      "sha256": "297ac48a04772bd15b401b40f2492923f2ac24d00cf6d61d48da32f252758a17"
+    }
+  ],
+  "copy_revision": "Visible copy follows game-text/city-motion-copy.md; concept-image text is an earlier layout study.",
+  "runtime_assets": [
+    {
+      "file": "gallery/public/city/motion/acid-paper.webp",
+      "sha256": "3317d3511b75283c5289829ec2a16d892b09f0bd9cecf6cbf1b8e75187cf8b3f"
+    },
+    {
+      "file": "gallery/public/city/motion/acid-spray.webp",
+      "sha256": "a5db79885ceee3a30a6dbc7fc1a2c803e654d5ea3a0b87c81d8ffcf2cc929730"
+    },
+    {
+      "file": "gallery/public/city/motion/black-paper.webp",
+      "sha256": "d1b36e12ad219875ab0b6353349461500bdfef162a23a3c5c00db45fc3c69937"
+    },
+    {
+      "file": "gallery/public/city/motion/cat.webp",
+      "sha256": "cad460d8230f7fc9aa6e7f044c9306ad349cf9906763b7486a8010fcff3e3d25"
+    },
+    {
+      "file": "gallery/public/city/motion/city-rail-backplate.webp",
+      "sha256": "84f5cd87b57da22ead1c870a80034b1cb92fdb0a755fe86dd9bfad09c7cff797"
+    },
+    {
+      "file": "gallery/public/city/motion/city-sky.webp",
+      "sha256": "e2a84d7bb8aa4a3710fdce2f9e675c04c8b0d69f370682051746b18f40253b30"
+    },
+    {
+      "file": "gallery/public/city/motion/cloud-wisps.webp",
+      "sha256": "f1812e3b51e379d7acb0e7ff0673e3db03c974e0fe566df785cb382eda0ee26b"
+    },
+    {
+      "file": "gallery/public/city/motion/cloud.webp",
+      "sha256": "e1b01f0b06275599032c3cf766e966ff3bac7a7029318e302dcc7a308725da92"
+    },
+    {
+      "file": "gallery/public/city/motion/coat-left.webp",
+      "sha256": "16e41cc0feec1b72020c9071eecce0c717b275311db1d0b3096ee44e9e7e6e6e"
+    },
+    {
+      "file": "gallery/public/city/motion/coat-right.webp",
+      "sha256": "5a251167b0f039516c87197a516d1f2f7bba05e6b7cd4d26811ce5334435a7f8"
+    },
+    {
+      "file": "gallery/public/city/motion/cyan-paper.webp",
+      "sha256": "028ee9140bc9422f0b46220d589752a027f0f1d9776c92121f1aafb3265260ed"
+    },
+    {
+      "file": "gallery/public/city/motion/cyan-spray.webp",
+      "sha256": "550c88cea4df133b0ce16a946be2260e9b985cbc13bea134c61c907757211798"
+    },
+    {
+      "file": "gallery/public/city/motion/far.webp",
+      "sha256": "867ca56b4b0e983fb9ad774ca3d6b1376063b0a5646830393dee20fb9398604f"
+    },
+    {
+      "file": "gallery/public/city/motion/fog.webp",
+      "sha256": "bb0684fb714687d9de09d816efa7388eec38d097213405d4cb0ec57fcde47d86"
+    },
+    {
+      "file": "gallery/public/city/motion/hair-left.webp",
+      "sha256": "1cf01b8e1bd99cfb2f89f0f7edb23f423494c2fd9a94c1335743328347694b56"
+    },
+    {
+      "file": "gallery/public/city/motion/hair-right.webp",
+      "sha256": "8247b3e641683be0c5e0519bf66ccc760af30799d7955893a0b3bd87d30f0216"
+    },
+    {
+      "file": "gallery/public/city/motion/heroine-rig.webp",
+      "sha256": "15411e77dc83d0fb5abb78a5c5752ca1684cfdd7510ee41a7577399858043f0e"
+    },
+    {
+      "file": "gallery/public/city/motion/metal-plate.webp",
+      "sha256": "cf6f90a855783eb859d6ef2087e4690596560a02a5d9f2fd72d135b08d21b0cf"
+    },
+    {
+      "file": "gallery/public/city/motion/mid.webp",
+      "sha256": "0f525597e9f73ee7bd11d4b549aaafe4b44eb82a1f440cbfb84760887cd11e54"
+    },
+    {
+      "file": "gallery/public/city/motion/paper.webp",
+      "sha256": "16ea4c551954439e0e3735e2e7526adf54748f822470ad3b70b9f391fe5039b3"
+    },
+    {
+      "file": "gallery/public/city/motion/prop-box-hd.webp",
+      "sha256": "6cd628f02ae038a0425bec8bbc1e208bccb3113f4ed05d073308f46bed6c38c8"
+    },
+    {
+      "file": "gallery/public/city/motion/prop-glass-hd.webp",
+      "sha256": "5253e6f40adfdad80f23556ef53983267acc78e11679f7211a84c8fcd224e04f"
+    },
+    {
+      "file": "gallery/public/city/motion/prop-metal-hd.webp",
+      "sha256": "b0db557d8bc14adf39d9243b086fef24f2bb1d7f24da485a23a89e5bf92de261"
+    },
+    {
+      "file": "gallery/public/city/motion/prop-paper-hd.webp",
+      "sha256": "94b8be1d470bd833bda73f0b7780e4779d073b9cb48af09d993026db347f63fa"
+    },
+    {
+      "file": "gallery/public/city/motion/prop-patch-hd.webp",
+      "sha256": "c954d6d4db13c7b6d4a0d142bee4a0a24bf9fef15a5b5642ea0d8fac3f7b7132"
+    },
+    {
+      "file": "gallery/public/city/motion/prop-poster-hd.webp",
+      "sha256": "e13141042787148fc611def6b5ba6c8eec477405437da424455a0a752251a89e"
+    },
+    {
+      "file": "gallery/public/city/motion/prop-rubber-hd.webp",
+      "sha256": "5cabcc16d39dec8b55f626a55a5046f587796ec9c07b8d403fc18375b129ee37"
+    },
+    {
+      "file": "gallery/public/city/motion/prop-shirt-hd.webp",
+      "sha256": "82e9ae317af1561834977988bc6fbf9d625c98af3fdcc0d99ce229be62005db2"
+    },
+    {
+      "file": "gallery/public/city/motion/rail.webp",
+      "sha256": "385d5f197fb01a5b93e8acaebe0f883a586ee91cad142df1e7c76b564b3512a8"
+    },
+    {
+      "file": "gallery/public/city/motion/restored-city.webp",
+      "sha256": "c93e29424b33531cfd0f7e5150cb3f1e22023d21fd2f66613dbf3a9426c67883"
+    },
+    {
+      "file": "gallery/public/city/motion/robot.webp",
+      "sha256": "97c0a6b29b600060a35177fd5f8183830b63cd9016d6e8bef5b037ee9da1ca35"
+    },
+    {
+      "file": "gallery/public/city/motion/seated-heroine.webp",
+      "sha256": "717a0a0651d6a65c5c7409c00960d10ce6377baea0a6897a38589b5809bd2c03"
+    },
+    {
+      "file": "gallery/public/city/motion/sign.webp",
+      "sha256": "17fdf68866c6ab1e9f3c0b9122f75652bb2568d498f43648e80d473d88fb2bf6"
+    },
+    {
+      "file": "gallery/public/city/motion/tape.webp",
+      "sha256": "1b843805d66a55e38d0379d208b8d0a8f9eb2b3d543c09f1bc3540b6e7ad63bd"
+    },
+    {
+      "file": "gallery/public/city/motion/tear.webp",
+      "sha256": "33fe864cd2b575919f8044e93d6b6d28d6a8e8c19aea7a5179df6c9598004835"
+    },
+    {
+      "file": "gallery/public/city/motion/train.webp",
+      "sha256": "d1bcf492db32a955e5152ca650489839c39ab2b306bbaa9d0d509f073a1d9910"
+    },
+    {
+      "file": "gallery/public/city/motion/wall-color.webp",
+      "sha256": "8d2fc8e08885850880a4218602f81e8b5a8953f28c83c60ee26d7076752bbb89"
+    },
+    {
+      "file": "gallery/public/city/motion/wall-dark.webp",
+      "sha256": "0466b0b084d7650dbb0c93d52e6cddafb3d0e87b224a6e6ef0fa891bafd635a0"
+    },
+    {
+      "file": "gallery/public/city/motion/wall-fabric.webp",
+      "sha256": "350a8aba0e2e7f9d1b9e0401d8293da84bc9ba9d1aaadda416bab93fa3a91cb1"
+    },
+    {
+      "file": "gallery/public/city/motion/wall-glass.webp",
+      "sha256": "104744005bc06da1018946085c039445e85b980e7500366bdcce61a0907d8525"
+    },
+    {
+      "file": "gallery/public/city/motion/wall-metal.webp",
+      "sha256": "5f56c4d1e856b01108805cea1d035bdd567f3709b8c7a873416fe1b4c658ac17"
+    },
+    {
+      "file": "gallery/public/city/motion/wall-paper.webp",
+      "sha256": "d11e81fd8359dd6bf6984717b02ffe396a2761bfc78339c8feba1801333eff8d"
+    },
+    {
+      "file": "gallery/public/city/motion/wall-print.webp",
+      "sha256": "3ac09215918dcff58415a584ec4843051d2dcd3c6d6d01db7a1ec3d51db101d6"
+    },
+    {
+      "file": "gallery/public/city/motion/wall-split.webp",
+      "sha256": "83589123e571f0365ca4deb749770dce4061aa55e70bbe16a0d3d0a4b884b456"
+    }
+  ]
+}
