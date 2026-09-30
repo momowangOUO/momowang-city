@@ -211,6 +211,12 @@
       "tool": "built-in image_gen",
       "model": "not exposed",
       "sha256": "297ac48a04772bd15b401b40f2492923f2ac24d00cf6d61d48da32f252758a17"
+    },
+    {
+      "id": "metro-complete",
+      "file": "gallery/public/city/motion/metro-complete.png",
+      "prompt": "Create one production animation sprite on a genuinely transparent RGBA background: a COMPLETE three-car cyberpunk urban metro train, flat strict SIDE VIEW, oriented with cab driving RIGHT, both the left rear cab and right front cab fully drawn and fully visible, all roof equipment, all wheels and undercarriage intact. Long panoramic canvas 3:1, train centered horizontally, at least 8 percent empty transparent padding beyond both ends, at least 15 percent padding above roof and below wheels. Train itself horizontal, wheels share a straight horizontal baseline. Dark ink-black navy body, small warm yellow illuminated windows, muted cyan accents, handpainted pale-blue/pink graffiti on lower body. Sharp bold hand-inked lines, restrained 1990s cel anime detail, match the reference city's train palette and drawing style. Rounded terminal cab faces at BOTH ENDS, unmistakable end caps with taillights at left; no car continues beyond either end. Three connected cars only, with detailed dark wheels beneath, consistent scale. Sprite must contain ONLY the complete train. NO railway tracks, NO bridge, NO columns or poles, NO cables, NO people, NO city, NO scenery, NO rectangular background, NO ground shadow, NO text captions or logos. Use reference only for the cel-ink palette and vehicle style. Do not reproduce the reference canvas crop. Do not cut off any train part. This is to replace a defective cropped train in an animated city.",
+      "sha256": "0430ca0579af9daac08015bad282b6fcca3811efa9cae294ceec725ba5745716"
     }
   ],
   "copy_revision": "Visible copy follows game-text/city-motion-copy.md; concept-image text is an earlier layout study.",
@@ -286,6 +292,10 @@
     {
       "file": "gallery/public/city/motion/metal-plate.webp",
       "sha256": "cf6f90a855783eb859d6ef2087e4690596560a02a5d9f2fd72d135b08d21b0cf"
+    },
+    {
+      "file": "gallery/public/city/motion/metro-complete.webp",
+      "sha256": "8f7672c61aa63fb9ff51ca42278840514e06adfac247be354ff5683940ef1a7b"
     },
     {
       "file": "gallery/public/city/motion/mid.webp",
