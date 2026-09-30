@@ -2,7 +2,7 @@
   "generator": "built-in image_gen",
   "model": "not exposed",
   "status": "CONCEPT_ONLY",
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "entries": [
     {
       "id": "city",
@@ -401,5 +401,258 @@
       "file": "gallery/public/city/motion/wall-split.webp",
       "sha256": "83589123e571f0365ca4deb749770dce4061aa55e70bbe16a0d3d0a4b884b456"
     }
-  ]
+  ],
+  "activePresentation": "city-exploration",
+  "journey": {
+    "conceptManifest": "docs/journey/production-concepts.json",
+    "runtimeManifest": "docs/journey/asset-layout.json",
+    "concepts": 22,
+    "files": 50,
+    "bytes": 16575824,
+    "artDirection": "docs/journey/ART_DIRECTION.md",
+    "prompts": [
+      {
+        "id": "closeup-box",
+        "path": "docs/design/journey/assets/closeup-box.png",
+        "prompt": "Production illustration background for cyberpunk print workshop object close-up. Match references bold Japanese cel illustration, thick black contour and sparse fine detail, flat hard light blocks, navy/cream/cyan/lemon/violet, fully sharp. Dominant premium charcoal flat rectangular presentation box or print portfolio with metallic edge lies on a cyberpunk printing workbench. Lid is a clean empty uninterrupted solid matte charcoal plane with subtle crisp paper grain, four lid corners approximately (270,160),(1250,215),(1410,700),(160,740) on a 1672x941 wide composition. This lid will receive a real logo later, so no symbols or markings. Printing machinery and empty cream paper corners at periphery create real physical location. Composition overwhelmingly dedicated to the LARGE EMPTY LID. No people, no words, no logo, no symbols, no buttons or webpage UI, no blur, no fake text, no extra objects obstructing lid.",
+        "tool": "built-in imagegen",
+        "alpha": false,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "closeup-chromatic",
+        "path": "docs/design/journey/assets/closeup-chromatic.png",
+        "prompt": "Production environment asset for Japanese 1990s cel-animated cyberpunk city website, graphic heavy clean black ink contours, hard cel blocks, ultrasharp high-res landscape16:9. An extreme close view of a huge chromatic illuminated GLASS WINDOW inside futuristic elevated station, the window occupies 85 percent of image; thick bolted violet-black chrome frame and only narrow glimpses of cyberpunk building facades beyond outer edges. Slight perspective: pane corners about (8%,11%),(92%,15%),(91%,89%),(8%,85%). The entire INSIDE of glass is luminous bright, broad smooth low-frequency cyan-to-pink-to-golden peach COLOR FIELDS, light subtle reflected bands and few tiny fine lines, NO dark silhouettes or dense architecture inside main panel, NO central white area, large coherent colorful surface. This colorful lit window must be a plausible physical art installation with rich reflected colored light. Matte cyan/peach broad center, readable for future desaturation/hue mask overlay. Need center clean and bright, saturation high, luminance medium-high, no smallbusy stripes. Foreground bolts clear, 90s hand-ink cel illustration not photoreal CGI. NO people, NO birds, NO logo, NO symbols, NO lettering, NO fake UI, no blur anywhere. Wide and close, pane has no content added.",
+        "tool": "built-in imagegen",
+        "alpha": false,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "closeup-light",
+        "path": "docs/design/journey/assets/closeup-light.png",
+        "prompt": "Edit this production cyberpunk terminal closeup while preserving exactly the frame geometry and outer city. Replace ONLY the inner navy blue/purple screen surface with a softly luminous PALE IVORY/LEMON display, with a very subtle warm grey fine flat screen texture and faint cyan reflection near left edge. Keep it clean and bright across the full display so BLACK logo artwork will read strongly later. Preserve exact screws/frame perspective, tower/city on outside, thick ink cel style, no blur. Display absolutely blank, NO generated logo or lettering. No people. All background outside the screen stays same composition. This is a bright screen lighting variant of the same real physical display, not a website UI screenshot.",
+        "tool": "built-in imagegen",
+        "alpha": false,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "closeup-optical",
+        "path": "docs/design/journey/assets/closeup-optical.png",
+        "prompt": "Production scene art, Japanese1990s anime cyberpunk cel rendering, thick black clean outlines and restrained hard cel shading, crisp maximum resolution landscape16:9. Extreme close-up of an optical glass art panel in cyberpunk station, it fills85% of frame. Narrow purple-black metal frame, visible bolts and tiny cyan edge lights. Plane corners roughly (8%,11%),(92%,15%),(91%,89%),(8%,85%). A physical milky lightglass pane bearing a dense but REGULAR optical print: narrow vertical dark violet and pale cyan pinstripes each 4px wide at1672px output, on an evenly luminous light lavender surface, with three broad translucent peach cyan lavender light bands. The stripes are sharp, uniform, no letters or digits, not moire, no blur. Purpose: after a shape-specific slight blur, lines dissolve inside the shape while sharp stripes remain outside. All glass evenly illuminated so processing contrast shows. No buildings or complex reflections crossing the pane. Outer 8% edge glimpses of dark futuristic room hardware, chunky black inks, hard cel shapes. NO people, birds, logos, symbols, text, fake controls. A real large optical installation close up, not an infographic or sheet of swatches.",
+        "tool": "built-in imagegen",
+        "alpha": false,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "closeup-print-color",
+        "path": "docs/design/journey/assets/closeup-print-color.png",
+        "prompt": "Production close-up, same cyberpunk print bench/case composition and thick crisp black cel-animation outlines as the reference. Make the central large rectangular case lid a vividly printed ART SURFACE, continuous large flat geometric shapes in saturated cyan, deep blue, hot pink, yellow and cream, not a logo. It fills the existing entire dark central surface between the existing metal edges. Bold large curved stripes and color blocks, fine printed halftone dots, no tiny busy checkerboards. Keep a wide 1672x941 composition with original case frame corners and printing equipment at edges unchanged. No people, NO TEXT, no letters or logos, no UI, no blur. This colorful physical printed surface will be used behind shape-mask effects, so color differences and edges must be clearly visible.",
+        "tool": "built-in imagegen",
+        "alpha": false,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "closeup-screen",
+        "path": "docs/design/journey/assets/closeup-screen.png",
+        "prompt": "Production illustration background for a cyberpunk city website object close-up. Same rich purple/navy/cyan/lemon palette and sharp 1990s Japanese cel animation thick black ink approach as references, graphic P5-like framing without copying any existing game. A real flat widescreen public terminal lightbox occupies 75% of the picture, straight-on slightly in perspective, clean dark navy display interior with broad low-frequency cyan and violet illumination (no lettering, no diagrams, no logo). Exquisite sharp heavy industrial frame with screws, vents, physical buttons OFF the display; Japanese cyberpunk station corridor and towers at the outer edges. Screen inner four corners approximately x 180 y 190, x 1360 y 170, x 1370 y 740, x 180 y 760 on a 1672x941 composition. Make the target screen empty ready for genuine logo compositing. Wide full-bleed view, crisp detail native resolution. NO people, NO birds, NO UI overlay, NO text, NO mock browser chrome, no vignette blur or depth of field.",
+        "tool": "built-in imagegen",
+        "alpha": false,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "cloud-strips",
+        "path": "docs/design/journey/assets/cloud-strips.png",
+        "prompt": "Production TRANSPARENT sprite sheet, TWO DIFFERENT long horizontal clusters of stylized pink violet cyberpunk dusk clouds for this sharp Japanese cel anime city. Each cluster is separate: top half one long band of chunky angular pink clouds with lavender shadows; bottom half a finer wispy segmented long band. Keep each band completely inside canvas with transparent margins on LEFT AND RIGHT so background repeating has transparent seams. These are painted hard-edged cel clouds, no outlined glow, no white/magenta fringe, no blur, no photoreal smoke, no checkerboard. Refined ink poster style coherent with reference, flat warm pink/lilac block shading. NO city/figures/birds/sky/text/labels, only two cloud bands on TRUE alpha. Landscape16:9 maximumresolution.",
+        "tool": "built-in imagegen",
+        "alpha": true,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "companion-return",
+        "path": "docs/design/journey/assets/companion-return.png",
+        "prompt": "Transparent production sprite animation strip, exactly FOUR complete separately isolated full-body frames arranged in ONE horizontal row, ample fully transparent gaps, no overlap, no cropping. Continue exactly the same ORIGINAL young adult Japanese anime woman in both references: SIX HEADS tall (large enough youthful head, not supermodel eight heads), medium-long black hair creamy ends, BLACK X hair clip stays on the same anatomical side, natural-size half-lidded amber eyes, apathetic introvert expression. Black crop top, huge black cyberpunk jacket, black baggy pants and thick platform combat boots, very small cyan hardware, silver buckles. Thick bold outer contour, fewer inner lines, flat hard-edged three-tone cel shading, restricted black/cream/cyan palette. Her figure must now WALK TOWARD SCREEN RIGHT, seen in right-facing three-quarter/profile, correct original asymmetry rather than mirrored art. Four real walking phases with LEFT foot planted, passing, RIGHT foot planted, passing; opposite arm swings, visible hair and jacket lag. Keep head exactly same size and feet at a shared baseline. Each character fully in its own cell; leave clear space all round feet, hair and coat tails. No ground, no backdrop, no shadows, no labels, no extra humans, no weapons.",
+        "tool": "built-in imagegen",
+        "alpha": true,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "companion-rise",
+        "path": "docs/design/journey/assets/companion-rise.png",
+        "prompt": "Production Japanese cel anime sprite STRIP with EXACTLY FOUR equal-width cells in ONE HORIZONTAL ROW on true transparent background, no cell borders, no guides, no text. SAME adult girl in every frame, reference1 is final STRICT SIX-HEAD standing design, reference2 seated pose. Bold clean black contour, sparse inside lines, flat hard cel shadows, black X clip same side, medium black hair cream tips, calm half-lidded amber eyes, black cyberpunk coat/trousers/boots with cyan small accents. Do not change costume, do not mirror character. Full body including all hair and boot soles fits inside EACH cell with margin; no overlap between cells. SAME character SCALE in all frames, SAME ground baseline at bottom, camera fixed three-quarter view facing LEFT. Landscape16:9 maxresolution. Four consecutive rising-from-bench animation keyframes left→right: 1 seated with both feet lowering toward ground, hands on knees; 2 weight leaned forward over planted feet, hips lifting; 3 halfway upright knees bending a little, coat and hair lag behind; 4 fully upright matching standing reference. No BENCH (it is separate prop), no floor, no shadows, no floating limb stubs. Respect six-head equivalent anatomy and natural planted foot support throughout.",
+        "tool": "built-in imagegen",
+        "alpha": true,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "companion-seat",
+        "path": "docs/design/journey/assets/companion-seat.png",
+        "prompt": "Generate ONE empty solid cyberpunk station equipment BENCH/PLINTH for the girl in second reference to sit on, rendered in same perspective and thick-ink cel style as first reference. NO GIRL or any other person. A wide rectangular raised dark-navy station utility box with clearly visible horizontal TOP SEATING SURFACE, cyan edge lights, small bolts, hard cel-shaded violet side/front panels, acid-yellow corners. Broad top large enough for seated girl. Three-quarter perspective looking slightly down onto top, right side receding. Fully complete opaque plinth with all bottom edges and feet visible on transparent background. Maximum width occupies75% image, height65%, no ground/scene/text/logos/letters/glow/blur. Landscape16:9. This is supporting physical furniture, not a floating pane.",
+        "tool": "built-in imagegen",
+        "alpha": true,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "companion-seated",
+        "path": "docs/design/journey/assets/companion-seated.png",
+        "prompt": "ONE same young ADULT Japanese anime woman from reference, strict SIX HEADS TALL proportions. Match black X hairclip, medium-long black hair with cream ends, calm half-lidded deadpan natural-size amber irises, black oversized cyberpunk coat/top/tactical trousers/boots, small cyan devices and subtle silver gothic metal. MUCH bolder outer ink than inner sparse lines, flat colors, hard cel shadow shapes; learn thick-ink/color METHODS of Helltaker and Deep Sea Prisoner without copying any character/costume. No skinny realistic scratch line shading. Full continuous anatomically correct body, organic covered joints, no holes/stubs/caps/doll joints. COMPLETE crown to boot soles, all fingers and hair tips contained with 8% empty transparent margin. Only single character, no duplicated parts, no guides/numerals/scene/lettering/logos; true alpha background. Portrait image maximum resolution. Pose: elegantly seated on invisible platform, knee raised on one side and opposite boot relaxed lower, one hand resting naturally on raised knee, other relaxed on lap. NO CHAIR or platform, just fully opaque anatomical woman. Profile three-quarter facing slightly LEFT, eyes calm and absent. This is the same girl as standing sheet, legs not shortened; six-head standing equivalent anatomy. No floating body parts.",
+        "tool": "built-in imagegen",
+        "alpha": true,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "companion-standing-six",
+        "path": "docs/design/journey/assets/companion-standing-six.png",
+        "prompt": "Correct proportions in FIRST reference and preserve identity/drawing/clothes. Important source is currently about 7.5 heads tall and REJECTED for long legs. Output EXACT SIX HEADS high: visibly enlarge entire head UNIFORMLY by about25% relative to shoulders, shorten legs by about20%, maintain adult six-head stylized anime proportions (NOT chibi). Head crown-to-chin must occupy one sixth of total crown-to-sole height; count SIX equal head units. Keep same calm adult Japanese girl, medium black hair with cream ends, black X clip, thick-black ink contour, flat hard cel colors and simple shadow blocks. Keep hands real and coat thick. Standing 3/4 left same pose; both boots full. NO brown glowy matte or cast shadow around cutout, no haze, no background pixels outside sharp silhouette, clean hard alpha. Single coherent entire girl with no guide/text/pieces, transparent background portrait maxres, 8% margin.",
+        "tool": "built-in imagegen",
+        "alpha": true,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "companion-walk",
+        "path": "docs/design/journey/assets/companion-walk.png",
+        "prompt": "Production Japanese cel anime sprite STRIP with EXACTLY FOUR equal-width cells in ONE HORIZONTAL ROW on true transparent background, no cell borders, no guides, no text. SAME adult girl in every frame, reference1 is final STRICT SIX-HEAD standing design, reference2 seated pose. Bold clean black contour, sparse inside lines, flat hard cel shadows, black X clip same side, medium black hair cream tips, calm half-lidded amber eyes, black cyberpunk coat/trousers/boots with cyan small accents. Do not change costume, do not mirror character. Full body including all hair and boot soles fits inside EACH cell with margin; no overlap between cells. SAME character SCALE in all frames, SAME ground baseline at bottom, camera fixed three-quarter view facing LEFT. Landscape16:9 maxresolution. Four evenly spaced looping WALK CYCLE frames left→right: LEFT foot forward contact/right back; passing pose left foot supports and right knee forward; RIGHT foot forward contact/left back; passing pose right foot supports and left knee forward. Character walks toward LEFT along city platform, calm forward gaze, natural small arm swing, coat and hair follow-through. Full six-head tall adult silhouette NOT long-legged fashion proportions. All feet fully contained, identical body/face identity, no props/scene/shadows, clean alpha.",
+        "tool": "built-in imagegen",
+        "alpha": true,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "drone-parts",
+        "path": "docs/design/journey/assets/drone-parts.png",
+        "prompt": "Extract the actual illustrated drones and their components from this reference into a clean TRANSPARENT production sheet with clear separate gutters, no layout poster background, no text/labels/numbers/arrows. Three DIFFERENT complete body chassis: patrol quad, small camera observer, heavy cargo six rotor; show original black/cyan/cream/yellow cyberpunk design, thick clean line and cel shading. For each keep four or six mounting arms integral with body, REMOVE all propeller BLADES so they can rotate separately later; body contains no ghost blades. Below each body provide its own separate propeller blade rotor sprite, separate camera gimbal head and small indicator lens. No guide illustrations or assembled duplicates. Transparent background, precise hard edge black outlines, maximum resolution landscape16:9. All parts including tips fully visible.",
+        "tool": "built-in imagegen",
+        "alpha": true,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "entry-foreground",
+        "path": "docs/design/journey/assets/entry-foreground.png",
+        "prompt": "Create a precisely registered TRANSPARENT FOREGROUND layer from this image, identical 1672x941 camera canvas composition. Keep ONLY the entire near elevated station platform/floor/railings at lower right, overhead station canopy along top right, pillars, and the near cross-city horizontal empty railway at y~530 including its supports and lower-left near platform structures. REMOVE all SKY and ALL distant/mid skyscrapers behind the station/rail, including central tall screen tower, replacing those areas by true transparency. Do not retain any buildings floating disconnected in holes. Keep source foreground geometry, bold outlines, pixels sharp, complete floor extending to bottom and side canvas edges intentionally as tiling scene layer. Do not reposition/scale existing pieces. No people, no text, no drones. True alpha background, all opaque geometry correctly opaque. This is registered parallax foreground, not isolated vignette.",
+        "tool": "built-in imagegen",
+        "alpha": true,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "entry-mobile-backplate",
+        "path": "docs/design/journey/assets/entry-mobile-backplate.png",
+        "prompt": "Remove all characters and robots/drones, all navigation/UI/title/graphics/text/logo from this approved PORTRAIT mobile cyberpunk city scene. Reconstruct hidden buildings/platform/floor exactly and cleanly. Remove train but keep rail. Keep large tower screen plain dark navy blank to receive live animation. Preserve original mobile tall composition with clear sky above and platform foreground, sharp thick ink city and navy violet cyan cream yellow cel-shaded surfaces. No people, no birds, no physical graffiti, no lens blur/bokeh/soft focus, every foreground and building line razor sharp. Portrait9:19 maximum resolution clean backplate.",
+        "tool": "built-in imagegen",
+        "alpha": false,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "glass-backplate",
+        "path": "docs/design/journey/assets/glass-backplate.png",
+        "tool": "built-in imagegen",
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "glass-mobile-backplate",
+        "path": "docs/design/journey/assets/glass-mobile-backplate.png",
+        "prompt": "Clean production portrait mobile cyberpunk glass arcade from exact composition. Remove girl/all humans/robots/drones and ALL UI/nav/title/text/logos. Reconstruct clean floor/architecture. Keep LARGE clear panoramic glass face LEFT with visible sharp saturated city architecture/reflections in cyan violet yellow, empty glass receives pixel-aligned shape mask later. No black/white symbol on glass. Crisp hard cel shading and bold ink, no blurry reflections, no bokeh, no soft focus foreground or background; no physical graffiti or birds. Tall mobile portrait maximumresolution.",
+        "tool": "built-in imagegen",
+        "alpha": false,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "print-backplate",
+        "path": "docs/design/journey/assets/print-backplate.png",
+        "prompt": "Edit approved cyberpunk night print-shop scene into clean runtime PRODUCTION BACKPLATE. Preserve EXACT architecture, foreground physical display objects, perspective, purple/navy/cyan/cream/yellow thick ink cel-shading. Remove girl/all people and all drones/robots (we animate separate), remove ALL navigation, controls, title typography, poster writing/signature/logos, reconstruct hidden architecture and floor cleanly. Leave broad blank label areas on real paper/metal/fabric objects, not generic floating rectangles. Cyberpunk architecture, graphic drawing method, NOT graffiti walls. Full sharp edges everywhere, no soft focus or bloom or photographic bokeh, all hidden bases fully drawn. No birds. Landscape16:9 maximum resolution.",
+        "tool": "built-in imagegen",
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "print-mobile-backplate",
+        "path": "docs/design/journey/assets/print-mobile-backplate.png",
+        "prompt": "Clean production PORTRAIT mobile night print-shop backplate. Remove all girl/people/robots/drones and ALL UI/navigation/title/button/lettering/logo. Reconstruct hidden floor/architecture. Preserve broad empty cream poster board and other paper/foil/book objects at actual physical shop, so signature can be composited later. Sharp bold ink cel style of reference, cyberpunk purple/navy/cyan/yellow, no graffiti walls, no birds, no blur at any depth. Keep mobile tall composition, portraitmaxresolution.",
+        "tool": "built-in imagegen",
+        "alpha": false,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "street-backplate",
+        "path": "docs/design/journey/assets/street-backplate.png",
+        "prompt": "Edit this approved cyberpunk street composition into a clean PRODUCTION BACKPLATE. Preserve the exact street architecture, shop shutter, side panels, perspective, purple navy cyan yellow cream cel-shaded illustration. Remove ALL the girl/people, drones/robots, any navigation, UI, title typography, icons, and reconstruct the street/ground behind them seamlessly. Keep all actual physical shutter, shop signboards, electrical cabinets and glass empty for later truthful logo composition. No fake letters, no graffiti, no birds, no blurred edge. Full sharply drawn architectural depth, stable rigid straight edges, bold black ink and hard cel shadows. No lens bokeh, no depth-of-field blur, no bloom washing out outlines. Landscape 16:9 maximum resolution.",
+        "tool": "built-in imagegen",
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "street-mobile-backplate",
+        "path": "docs/design/journey/assets/street-mobile-backplate.png",
+        "prompt": "Clean production PORTRAIT mobile backplate. Remove all girl/people/robots/drones and UI/navigation/title/button/lettering/logos. Reconstruct hidden street and floor without moving camera. Keep real blank broad shutter on left, panels and shops, neon cyberpunk towers, ample floor. Thick crisp black ink, hard cel surfaces, purple cyan yellow cream. Absolutely sharp background/foreground, no bokeh/haze/soft smear or glow that loses edges. No birds or physical graffiti. Preserve mobile composition, tall portrait maxresolution.",
+        "tool": "built-in imagegen",
+        "alpha": false,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "tower-parts-a",
+        "path": "docs/design/journey/assets/tower-parts-a.png",
+        "prompt": "Create a PRODUCTION transparent PNG asset sheet using the architecture drawing style of the reference. FOUR SEPARATE standalone tall cyberpunk skyscraper bodies, spread side by side with generous transparent gutters, no object touching another. Each entire tower including the complete base and antennas must fit inside canvas, extend solid clean base well below visible ground for parallax safety. Towers: A cyan edge-lit rectangular skyscraper with very large perfectly blank navy portrait media screen on FRONT; B cream-window slim office tower with visible side face; C violet industrial tower with mechanical roof and no signage text; D yellow-lit residential stepped tower. Use crisp thick dark ink, hard flat navy/purple cel shading, sharp cyan and warm window groups, coherent three-quarter perspective, not photographic. Render distinct roof, facade and side-plane geometry clearly so we can cut secondary animation masks. No city background, no people, no drones, no ground, no cloud, no letter, no logo, no guide/labels, no blur. True transparent background. Use as much of canvas height as possible with all towers completely contained. Landscape 16:9.",
+        "tool": "built-in imagegen",
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "tower-parts-b",
+        "path": "docs/design/journey/assets/tower-parts-b.png",
+        "prompt": "Create four NEW distinct separate complete cyberpunk buildings matching reference rendering exactly. Transparent production sprite sheet. EACH fully visible from complete roof to complete solid base, generous empty gutters, no overlap. One rooftop station building with broad blank cream front sign and visible side; one purple cylindrical data tower with cyan segmented lights; one white-window stepped observation skyscraper with rotating roof dish drawn separately above; one short yellow mechanical industrial tower. Full crisp bold black outlines and flat cel panels, purple navy cyan yellow. No figures/birds/clouds/background/lettering/logo/text. Landscape16:9, all 4 assets as tall and sharp as possible.",
+        "tool": "built-in imagegen",
+        "alpha": true,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "tower-parts-c",
+        "path": "docs/design/journey/assets/tower-parts-c.png",
+        "prompt": "Create four NEW distinct standalone skyscrapers for same cyberpunk illustrated city with transparent background. A slender needle-shaped violet telecom tower; a twin cream-lit rectangular hotel block linked by skybridge; a cyan tiered data-center skyscraper with separate facade and side face; an acid-yellow mechanical residential tower with broad base, aerials and fan. Four COMPLETELY SEPARATED full buildings side by side, no touching, plenty of gutters; all roof tips and full base inside frame. Crisp thick black outer contour, hard navy/purple cel panels, solid lineart, no soft bloom, no blur. Match reference perspective/density. No figures/drones/clouds/ground/text/logo/labels. Landscape16:9 max resolution, preserve transparency.",
+        "tool": "built-in imagegen",
+        "alpha": true,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "underground-backplate",
+        "path": "docs/design/journey/assets/underground-backplate.png",
+        "tool": "built-in imagegen",
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "underground-mobile-backplate",
+        "path": "docs/design/journey/assets/underground-mobile-backplate.png",
+        "prompt": "Clean production portrait mobile underground cyberpunk hall from EXACT reference camera. Remove girl and all humans/robots/drones; remove UI/navigation/title/button/text/logos. Reconstruct architecture/floor behind. Keep large blank navy projection wall left and empty cream sign, very sharp graphic tech-screen frames, no haze/bokeh/blur at any depth. Add one actual BLANK cream PAPER POSTER in thin metal holder on lower-left foreground wall, broad readable rectangle for logo graphic test, do not cover large projection wall. Purple/navy cyan acid yellow cel-shaded architecture, no physical graffiti, no birds, all lines crisp. Tall portrait maximum resolution.",
+        "tool": "built-in imagegen",
+        "alpha": false,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "workshop-backplate",
+        "path": "docs/design/journey/assets/workshop-backplate.png",
+        "prompt": "Edit approved cyberpunk robot customization workshop scene into clean runtime PRODUCTION BACKPLATE. Preserve EXACT architecture, foreground physical display objects, perspective, purple/navy/cyan/cream/yellow thick ink cel-shading. Remove girl/all people and all drones/robots (we animate separate), remove ALL navigation, controls, title typography, poster writing/signature/logos, reconstruct hidden architecture and floor cleanly. Leave broad blank label areas on real paper/metal/fabric objects, not generic floating rectangles. Cyberpunk architecture, graphic drawing method, NOT graffiti walls. Full sharp edges everywhere, no soft focus or bloom or photographic bokeh, all hidden bases fully drawn. No birds. Landscape16:9 maximum resolution.",
+        "tool": "built-in imagegen",
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "workshop-mobile-backplate",
+        "path": "docs/design/journey/assets/workshop-mobile-backplate.png",
+        "prompt": "Clean production portrait mobile cyberpunk customization workshop backplate from this exact composition. Remove the girl and all people and all robots/drones, remove UI/nav/title/logo/letters. Reconstruct hidden floor and shop details. Keep main large blank brushed metal plate and workbench objects, no false logos. Crisp bold black outlines with navy violet cyan yellow cel-shaded colors; sharp readable edge detail at all depths, no bokeh/blur/haze/smear. No physical graffiti, no birds. Portrait tall maximum resolution.",
+        "tool": "built-in imagegen",
+        "alpha": false,
+        "status": "runtime-art; no signature production approval"
+      },
+      {
+        "id": "workshop-props",
+        "path": "docs/design/journey/assets/workshop-props.png",
+        "prompt": "Production transparent sprite sheet THREE distinct physical display props in same crisp black-ink purple/navy/cyan/yellow cel-shaded cyberpunk illustration. Left third: BLACK cyberpunk jacket hanging from a real metal hanger, seen from back, with broad large plain gray-fabric rectangular stitched patch at back, blank. Middle third: squat cute BOX industrial ROBOT on wheels, yellow/navy metal body, one rectangular camera eye, broad blank dark-gray rubber rectangular badge on chest, NO human silhouette. Right third: cream paper POSTER in a thin industrial steel standing display frame with short floor legs, blank unmarked broad paper face. Each fully separate, whole complete prop and all feet/hooks visible; no touching. NO people, no text, no signatures/lettering/graphics, no scene/floor, no cast shadow; true transparency. Large clean empty patch/paper areas for compositing real signature. Hard bold lineart, no blur. Landscape16:9 maxres.",
+        "tool": "built-in imagegen",
+        "alpha": true,
+        "status": "runtime-art; no signature production approval"
+      }
+    ],
+    "copy": [
+      "午夜街区",
+      "霓虹与墨迹",
+      "纸上电流",
+      "铬色余温",
+      "折射之后",
+      "低频回声"
+    ],
+    "signature": "Raster silhouette derived from immutable original; no new master, no approval"
+  },
+  "legacyEntriesScope": "Earlier generation provenance and assets retained by the archive. Active city sources are listed in journey."
 }
