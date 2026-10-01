@@ -2,7 +2,7 @@
 
 ## [↗ 进入网站 / EXPLORE THE CITY](https://momowangouo.github.io/momowang-city/)
 
-[![进入午夜街区](site-preview.png)](https://momowangouo.github.io/momowang-city/)
+[![进入午夜街区](site-preview.jpg)](https://momowangouo.github.io/momowang-city/)
 
 **赛博朋克城市探索 · 日系赛璐璐 · Logo 实物呈现**
 
