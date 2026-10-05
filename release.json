@@ -1,12 +1,15 @@
 {
-  "sourceCommit": "d9db6a4040d62e0097f4daed4e36fdf9ea0433d2",
-  "builtAt": "2026-10-05T17:38:27.7899575Z",
+  "sourceCommit": "fc2e55042bbcc858cde7cb4eeb6437a88f684b1e",
+  "builtAt": "2026-10-05T18:22:40.3554593Z",
   "site": "https://momowangouo.github.io/momowang-city/",
-  "indexSha256": "1a8fd9de7856c235f009c4cc6b92325cdc5886aa0eb7103f070136adf9b9adad",
-  "manifestSha256": "ac7f9921171d1095fca9d1abb99a5b4007e3dc3ea1f1f2899ec137cf957250f1",
+  "indexSha256": "e432587bc60b7c318668c04da1f49c74ad0a9f189f9d22b4e2eb980e568719c6",
+  "manifestSha256": "c3923de07ce44fb3fa00309eff05561e3eae1ec64107cbeac7e5aa96f68df89a",
   "scenes": 6,
   "groups": 28,
   "variants": 161,
-  "eyeRig": "complete-iris-v2",
-  "physicalMobileAcceptance": "pending"
+  "eyeRig": "original-fixed-gaze-local-blink-v1",
+  "physicalMobileAcceptance": "pending",
+  "preload": "bounded-priority-neighborhood-v1",
+  "depth": "rigid-layered-observation-v2",
+  "rollbackStaticCommit": "d08e6055da270859d5f40d9c1bf0e676d000548e"
 }

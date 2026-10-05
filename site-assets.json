@@ -3,19 +3,19 @@
   "entry": "index.html",
   "files": [
     {
-      "path": "assets/site-Cxh3w5ik.js",
-      "bytes": 888417,
-      "sha256": "e8b1e01fec3f91e2ada9aac055e70a23c71af3fc50f699fd0d90d45786ac04bf"
+      "path": "assets/site-Cd_LzLB9.css",
+      "bytes": 60470,
+      "sha256": "c4f54502af713cb10994c453e699fb5eb49006eb7f5e187e030363cdd42717fe"
     },
     {
-      "path": "assets/site-ZIzf4mnR.css",
-      "bytes": 58258,
-      "sha256": "121d94a50c7a969f71a8dcc1f24e5cf5071551d7a66df9d9797c18f0bef38839"
+      "path": "assets/site-CHfwBZAX.js",
+      "bytes": 903265,
+      "sha256": "e1b6851db2bf42237ba8a2884532a1b4ade9bf6b15f8fe82a80466d9966f8f06"
     },
     {
-      "path": "assets/station-world-resident-worker-BjvMTwzr.js",
-      "bytes": 383544,
-      "sha256": "233f6e9b31e8bae73452d3e28b413aee2d13ca8afed52175bc70697d0fb4b600"
+      "path": "assets/station-world-resident-worker-COxdW7XI.js",
+      "bytes": 388699,
+      "sha256": "4e668703198616b669d7599c9a594ba574032a252ac08f3b7df1a7a2e17767bb"
     },
     {
       "path": "city/cinema-pose-v2/chairReveal.raw.png",
@@ -554,8 +554,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 2788,
-      "sha256": "1a8fd9de7856c235f009c4cc6b92325cdc5886aa0eb7103f070136adf9b9adad"
+      "bytes": 3401,
+      "sha256": "e432587bc60b7c318668c04da1f49c74ad0a9f189f9d22b4e2eb980e568719c6"
     },
     {
       "path": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
