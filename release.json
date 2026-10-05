@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "d1d0ee9e6239d6ce9726d26cd752161c1bc5f392",
-  "builtAt": "2026-10-02T06:02:18.5598052Z",
+  "sourceCommit": "1d20635ed7a7fc71f2c045b1df057364d4282851",
+  "builtAt": "2026-10-05T07:27:02.269Z",
   "site": "https://momowangouo.github.io/momowang-city/",
-  "indexSha256": "a4e59ca306d50b6bc146b3320891dde71299460b4255a8bcc3565db370f86bbd",
+  "indexSha256": "6833cd918f2dab5664fff7750c4daa539c33c4eb7440acf964bf77ead4928d1c",
+  "manifestSha256": "e5fa0c8366f6ceaa5752b5bd2ea06b5bb54ddc8c24c7ab2355f2daaecd1ec943",
   "scenes": 6,
   "groups": 28,
   "variants": 161

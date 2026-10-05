@@ -1,0 +1,699 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-05T07:27:02.269Z",
+  "status": "local-package-unpublished",
+  "published": false,
+  "publicationReady": false,
+  "source": {
+    "gitAvailable": true,
+    "observedHead": "1d20635ed7a7fc71f2c045b1df057364d4282851",
+    "dirty": false,
+    "status": "bound",
+    "sourceCommit": "1d20635ed7a7fc71f2c045b1df057364d4282851",
+    "reason": "Explicit commit equals clean source HEAD; this does not prove this bundle was built from that commit."
+  },
+  "qualification": "Local validation/staging only. No Git mutation or deployment. Explicit source binding alone is not clean-build provenance or visual/mobile acceptance.",
+  "entry": "index.html",
+  "manifest": {
+    "path": "site-assets.json",
+    "sha256": "e5fa0c8366f6ceaa5752b5bd2ea06b5bb54ddc8c24c7ab2355f2daaecd1ec943"
+  },
+  "payloadFileCount": 112,
+  "payloadBytes": 169987223,
+  "files": [
+    {
+      "path": "assets/site-BjUBbqUY.js",
+      "bytes": 877481,
+      "sha256": "7694969d3d444b60e279558f754cdc776c2816b38f0989a8495fe04f2c1a16e7"
+    },
+    {
+      "path": "assets/site-ZIzf4mnR.css",
+      "bytes": 58258,
+      "sha256": "121d94a50c7a969f71a8dcc1f24e5cf5071551d7a66df9d9797c18f0bef38839"
+    },
+    {
+      "path": "assets/station-world-resident-worker-DzMjXK_M.js",
+      "bytes": 378468,
+      "sha256": "f944a1c2d60155cecc633d215eae608ed389da3dbcafa14bdf790ef7da8d9e20"
+    },
+    {
+      "path": "city/cinema-pose-v2/chairReveal.raw.png",
+      "bytes": 2063349,
+      "sha256": "f636167bc9c7698c4c589ef626549937e2b77034e24bf992b9d5c6f507a0e823"
+    },
+    {
+      "path": "city/cinema-pose-v2/detailReveal.raw.png",
+      "bytes": 2053253,
+      "sha256": "695dc7faae248a8901b0a2704e7b66dc34f680c2a87d7850ea50d1dc56567a73"
+    },
+    {
+      "path": "city/cinema-pose-v2/eyesReveal.raw.png",
+      "bytes": 2039168,
+      "sha256": "b371d2f3fb7aecdf16acb836b5c02adc47e49d72a62c9f789ad122141d874e78"
+    },
+    {
+      "path": "city/cinema-pose-v2/manifest.json",
+      "bytes": 190878,
+      "sha256": "7ee724d948704fe7c8491a6ce6d374d1d2501dfa4e9b719d457b3ff55e0ba7c1"
+    },
+    {
+      "path": "city/cinema-pose-v2/original.raw.png",
+      "bytes": 2097438,
+      "sha256": "13937511aa85d0699191ebc53ac35db7a29ed1b3b50f6c2664e31f1edd74a91c"
+    },
+    {
+      "path": "city/city.png",
+      "bytes": 2725684,
+      "sha256": "cd3545d558c5397ee3a4228ca6b6e72836bee6e0ac620f738d408de1cf18dba5"
+    },
+    {
+      "path": "city/continuous-world-v1/boundary-pier-v2.raw.png",
+      "bytes": 219585,
+      "sha256": "5e2868529edcc61fb237009a3ac943867d1933decf7a6bc10cab140089e3df20"
+    },
+    {
+      "path": "city/continuous-world-v1/cinema-chair-v2.raw.png",
+      "bytes": 451955,
+      "sha256": "565090a622f30cb13d6252a1357c4ae17570e798076ec51d3ba3d4ec995d55f3"
+    },
+    {
+      "path": "city/continuous-world-v1/entry-bench-v1.raw.png",
+      "bytes": 661107,
+      "sha256": "c8ab6ddd5d76910cfc327ab19f8f97b8901e7af2ff29477b1c9f384a7cd1a2f5"
+    },
+    {
+      "path": "city/continuous-world-v1/entry-hem-v1.raw.png",
+      "bytes": 2782178,
+      "sha256": "67f1bc61032973a6b090c7ea48d045a3f1c636aa0bad4620f5fea84a893cb884"
+    },
+    {
+      "path": "city/continuous-world-v1/entry-straps-v1.raw.png",
+      "bytes": 2768088,
+      "sha256": "62d86c26bb8795ef6e5ed0bb1608a92f889232113fe3e50fe87536628853befe"
+    },
+    {
+      "path": "city/continuous-world-v1/glass-plinth-v1.raw.png",
+      "bytes": 295445,
+      "sha256": "35987f595138035bd516cc675d400e3de1e5d22333060ee2f41846836ffe76ff"
+    },
+    {
+      "path": "city/continuous-world-v1/glass-sclera-v1.raw.png",
+      "bytes": 2701706,
+      "sha256": "444f4dca94f85e03fff3ff0e02aa57ddb923ae408688d05235721eb28d87c7c5"
+    },
+    {
+      "path": "city/continuous-world-v1/manifest.json",
+      "bytes": 48278,
+      "sha256": "9296f31b8e7a6e0e7faf987904b05f2234bfe67d92aa448128b41062ded56105"
+    },
+    {
+      "path": "city/continuous-world-v1/print-stool-v1.raw.png",
+      "bytes": 167040,
+      "sha256": "59885f5897567a3019bc63115b8d4983866def12f95639a94aac54807a925f09"
+    },
+    {
+      "path": "city/continuous-world-v1/shared-foreground-v2.raw.png",
+      "bytes": 369010,
+      "sha256": "eb5d48bd5286f4d7ed11b47270dc5e12c60f356ebac188c12164dd60b3d8b71c"
+    },
+    {
+      "path": "city/continuous-world-v1/shared-skyline-v1.raw.png",
+      "bytes": 2250996,
+      "sha256": "8530e47d0cb3f30aba372e3efdd50c2d6601f2c5b8e5e0951690d54c7c8e1aef"
+    },
+    {
+      "path": "city/continuous-world-v1/shared-viaduct-v1.raw.png",
+      "bytes": 1041014,
+      "sha256": "882139c2c318ff685abc3733451d4a2876e2d3772d70f15983c4f644e651a8bc"
+    },
+    {
+      "path": "city/continuous-world-v1/street-hem-v1.raw.png",
+      "bytes": 2813256,
+      "sha256": "74cd27f196c78a5ace23031499cd100b31103ec52a51b2c0eee825b4e7918279"
+    },
+    {
+      "path": "city/continuous-world-v1/street-straps-v1.raw.png",
+      "bytes": 2794586,
+      "sha256": "33678698ddddec6de1e58b9bff2f7453c06438d3c3f3ace0e57c1eea6711f637"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-00.png",
+      "bytes": 3055652,
+      "sha256": "d028c6119d380dbdf88edb8efff1534979d8b647d98fa78b659b8a181f5f0591"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-01.png",
+      "bytes": 3035289,
+      "sha256": "da4bfe1236a4454336a975340a84917add127062a8dd39e08c85bd5fe2c02ce6"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-02.png",
+      "bytes": 3018273,
+      "sha256": "b4788ff58cb825d2ad2b5f4f74cf744199254bf3d6bf8c45457a50b67cfb8ec0"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-03.png",
+      "bytes": 3011033,
+      "sha256": "d0a903c909624956b7339ff6bf9776883765c6200b98fdef65440e79d0746cd9"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-04-clean.png",
+      "bytes": 2504212,
+      "sha256": "2065b2e576cee9f4bb2c2ddbeb7e70ef641e6da6db30a289ef7ab20bada820d8"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-04.png",
+      "bytes": 2696191,
+      "sha256": "8b91c343aaf030284f3558c4fc6751a8fac4b30c24782e3a354d47fe286789ab"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-05.png",
+      "bytes": 2683790,
+      "sha256": "bb7c21ca5fc3ee75587216ba752c6d42ded8bc984feb71b2bbc7cd219e4be235"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-06-clean.png",
+      "bytes": 2574556,
+      "sha256": "81e66970116da8873b99f9432477ee589f2275f3a13a766964a37a23f8b4372e"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-06.png",
+      "bytes": 2782224,
+      "sha256": "1bdc68cfb382052ca04f5527caba7ed20f0f23e05ba912565fad453253c5186b"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-07.png",
+      "bytes": 2745500,
+      "sha256": "b97946e5173002219b4b6232c92e643ccd56850b61837a30c69ea84ce42db65f"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-08-clean.png",
+      "bytes": 2445129,
+      "sha256": "0094c6202d74fb4f9ef8b5ea269231a1a600494a1c5316dde843f665cf7b5b8e"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-08.png",
+      "bytes": 2722224,
+      "sha256": "8712d133a58ce9d8d8289f11a823e63b2bc11c19d9a3cfa1479e2416d221cb1d"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-09.png",
+      "bytes": 2826049,
+      "sha256": "b88a117d85c09211616eeb57a438753d183dd2a1afe8a771bd33430b491a4dac"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-10-clean.png",
+      "bytes": 2382491,
+      "sha256": "44b3abaeeab840701b3316f40e6f8859620b4f688a8d3610d10711dc7e743a69"
+    },
+    {
+      "path": "city/continuous-world-v1/tile-10.png",
+      "bytes": 2530815,
+      "sha256": "16739091d430438ce27602c5fbb2f7606925c69d1bf7db51625984dc28021d2e"
+    },
+    {
+      "path": "city/continuous-world-v1/wet-pavement-band-v1.raw.png",
+      "bytes": 1085309,
+      "sha256": "4ba44367df5baa872b86ce5931139e59a59e994727792b1d274c949c68faad31"
+    },
+    {
+      "path": "city/entry-reference-v1/detailReveal.raw.png",
+      "bytes": 2753643,
+      "sha256": "d98ce0dc0a9254e109f4436194fb293966e2a6a8f1057d526f7e1bddd3fb1c0b"
+    },
+    {
+      "path": "city/entry-reference-v1/manifest.json",
+      "bytes": 144391,
+      "sha256": "c30284d5706c14ced1d90aa3bfab105f45f0b8130032a9536007037ddee0bf05"
+    },
+    {
+      "path": "city/entry-reference-v1/original.raw.png",
+      "bytes": 2903716,
+      "sha256": "ea7b0fc7a00c21fc0c826b9af9aa8d179ba4be1083dcd9298a88e493e718dec1"
+    },
+    {
+      "path": "city/entry-reference-v1/rear.raw.png",
+      "bytes": 2872115,
+      "sha256": "f32436e721310a0d0034a646906fd09f6fcbbd32fd7aa5dd930a14a3bd49442d"
+    },
+    {
+      "path": "city/glass-pose-v2/detailReveal.raw.png",
+      "bytes": 2602224,
+      "sha256": "eb82abe734f03c1cf8e3bd7d399eb32e5737a8c79b37207f1911b8522540717a"
+    },
+    {
+      "path": "city/glass-pose-v2/eyesReveal.raw.png",
+      "bytes": 2616498,
+      "sha256": "beb8a76394f20a1ac301e3c94cf4aa8c1ed8d01055b4fa1150ae8d2aac6a29ea"
+    },
+    {
+      "path": "city/glass-pose-v2/manifest.json",
+      "bytes": 162481,
+      "sha256": "3d7fe9b5a1e0e995292ecc367a50ddddcc1092c5d047daf9dd8d98d675ef4207"
+    },
+    {
+      "path": "city/glass-pose-v2/original.raw.png",
+      "bytes": 2691114,
+      "sha256": "2eef6903c151a6e46c326f9c5d80b0a5fbb08c7e477736d6842dd202791cac32"
+    },
+    {
+      "path": "city/motion/heroine-rig.webp",
+      "bytes": 172586,
+      "sha256": "15411e77dc83d0fb5abb78a5c5752ca1684cfdd7510ee41a7577399858043f0e"
+    },
+    {
+      "path": "city/motion/prop-box-hd.webp",
+      "bytes": 687960,
+      "sha256": "6cd628f02ae038a0425bec8bbc1e208bccb3113f4ed05d073308f46bed6c38c8"
+    },
+    {
+      "path": "city/motion/prop-glass-hd.webp",
+      "bytes": 699628,
+      "sha256": "5253e6f40adfdad80f23556ef53983267acc78e11679f7211a84c8fcd224e04f"
+    },
+    {
+      "path": "city/motion/prop-metal-hd.webp",
+      "bytes": 724836,
+      "sha256": "b0db557d8bc14adf39d9243b086fef24f2bb1d7f24da485a23a89e5bf92de261"
+    },
+    {
+      "path": "city/motion/prop-paper-hd.webp",
+      "bytes": 564376,
+      "sha256": "94b8be1d470bd833bda73f0b7780e4779d073b9cb48af09d993026db347f63fa"
+    },
+    {
+      "path": "city/motion/prop-patch-hd.webp",
+      "bytes": 823558,
+      "sha256": "c954d6d4db13c7b6d4a0d142bee4a0a24bf9fef15a5b5642ea0d8fac3f7b7132"
+    },
+    {
+      "path": "city/motion/prop-poster-hd.webp",
+      "bytes": 707566,
+      "sha256": "e13141042787148fc611def6b5ba6c8eec477405437da424455a0a752251a89e"
+    },
+    {
+      "path": "city/motion/prop-rubber-hd.webp",
+      "bytes": 727082,
+      "sha256": "5cabcc16d39dec8b55f626a55a5046f587796ec9c07b8d403fc18375b129ee37"
+    },
+    {
+      "path": "city/motion/prop-shirt-hd.webp",
+      "bytes": 671826,
+      "sha256": "82e9ae317af1561834977988bc6fbf9d625c98af3fdcc0d99ce229be62005db2"
+    },
+    {
+      "path": "city/motion/tape.webp",
+      "bytes": 58148,
+      "sha256": "1b843805d66a55e38d0379d208b8d0a8f9eb2b3d543c09f1bc3540b6e7ad63bd"
+    },
+    {
+      "path": "city/motion/wall-color.webp",
+      "bytes": 373266,
+      "sha256": "8d2fc8e08885850880a4218602f81e8b5a8953f28c83c60ee26d7076752bbb89"
+    },
+    {
+      "path": "city/motion/wall-dark.webp",
+      "bytes": 448844,
+      "sha256": "0466b0b084d7650dbb0c93d52e6cddafb3d0e87b224a6e6ef0fa891bafd635a0"
+    },
+    {
+      "path": "city/motion/wall-fabric.webp",
+      "bytes": 593766,
+      "sha256": "350a8aba0e2e7f9d1b9e0401d8293da84bc9ba9d1aaadda416bab93fa3a91cb1"
+    },
+    {
+      "path": "city/motion/wall-glass.webp",
+      "bytes": 483482,
+      "sha256": "104744005bc06da1018946085c039445e85b980e7500366bdcce61a0907d8525"
+    },
+    {
+      "path": "city/motion/wall-paper.webp",
+      "bytes": 556338,
+      "sha256": "d11e81fd8359dd6bf6984717b02ffe396a2761bfc78339c8feba1801333eff8d"
+    },
+    {
+      "path": "city/motion/wall-print.webp",
+      "bytes": 505368,
+      "sha256": "3ac09215918dcff58415a584ec4843051d2dcd3c6d6d01db7a1ec3d51db101d6"
+    },
+    {
+      "path": "city/motion/wall-split.webp",
+      "bytes": 519178,
+      "sha256": "83589123e571f0365ca4deb749770dce4061aa55e70bbe16a0d3d0a4b884b456"
+    },
+    {
+      "path": "city/print-pose-v2/coatReveal.raw.png",
+      "bytes": 2612665,
+      "sha256": "c6e51e52d189bcf3f253926e132505e5d59c21eaa38f57e0845dc37656535036"
+    },
+    {
+      "path": "city/print-pose-v2/detailReveal.raw.png",
+      "bytes": 2525327,
+      "sha256": "904d1e92e0d8e5799f43701dec528b4184ae3981ea572951fb75577c63271cf4"
+    },
+    {
+      "path": "city/print-pose-v2/eyesReveal.raw.png",
+      "bytes": 2564045,
+      "sha256": "ce5699680c0d72d6f33f89605e4059aaa2fdd7d5aecfc30374fa58a21866b267"
+    },
+    {
+      "path": "city/print-pose-v2/manifest.json",
+      "bytes": 210734,
+      "sha256": "3672377dd73691460aba5d368be122371a464a29a6373404696a7e4b178d1748"
+    },
+    {
+      "path": "city/print-pose-v2/original.raw.png",
+      "bytes": 2590433,
+      "sha256": "c7a9eb8b83a62a9a9cf3e8153a476d5530da783399f80a7679b8502434ee0241"
+    },
+    {
+      "path": "city/street-reference-v1/detailReveal.raw.png",
+      "bytes": 2728916,
+      "sha256": "f77810773ffce97dd7ebdb527936e4ea8c060b036f303d21b7fd637109f39a3e"
+    },
+    {
+      "path": "city/street-reference-v1/manifest.json",
+      "bytes": 133558,
+      "sha256": "c68b50d0fdb6f350bd77be0cc7c1c96b92e87d962459e3e8e97d8086cc9783da"
+    },
+    {
+      "path": "city/street-reference-v1/original.raw.png",
+      "bytes": 2907517,
+      "sha256": "318693d922fc1b5844ac746161a0a73926d635ce8ac2662f276cc0b72f160e3c"
+    },
+    {
+      "path": "city/street-reference-v1/rear.raw.png",
+      "bytes": 2776630,
+      "sha256": "26cc696c72b318193014099c6e90313d356e27072f42d55f3c605d10060c69b6"
+    },
+    {
+      "path": "city/workshop-reference-v1/detailReveal.raw.png",
+      "bytes": 2708373,
+      "sha256": "709e93a2adb10a9b59113ca7922b964738c026d755c4f0139e96c14d4aecd467"
+    },
+    {
+      "path": "city/workshop-reference-v1/manifest.json",
+      "bytes": 136034,
+      "sha256": "242ccfdec78d81d3752127c396920f092b0c216471f5c7002344acd2ec3ce418"
+    },
+    {
+      "path": "city/workshop-reference-v1/original.raw.png",
+      "bytes": 2809517,
+      "sha256": "48fb59d29f272c4ee2ad7646d8df685b5c0d97d0c2fe946de38d62705d2e5573"
+    },
+    {
+      "path": "city/workshop-reference-v1/rear.raw.png",
+      "bytes": 2746461,
+      "sha256": "1b1f87d77636f589d5b79c9854746642b86c22e1ba7b2960f9a18834cfd06268"
+    },
+    {
+      "path": "examples/01-standard-v6.png",
+      "bytes": 1500875,
+      "sha256": "81d006dfa5ebee8536f5d3f8a37e6c9d5a84b0fcaf4d2cb7e4b1903f751adb25"
+    },
+    {
+      "path": "examples/02-color-v6.png",
+      "bytes": 1500875,
+      "sha256": "81d006dfa5ebee8536f5d3f8a37e6c9d5a84b0fcaf4d2cb7e4b1903f751adb25"
+    },
+    {
+      "path": "examples/03-contrast-v6.png",
+      "bytes": 1500875,
+      "sha256": "81d006dfa5ebee8536f5d3f8a37e6c9d5a84b0fcaf4d2cb7e4b1903f751adb25"
+    },
+    {
+      "path": "examples/04-relationship-v6.png",
+      "bytes": 1500875,
+      "sha256": "81d006dfa5ebee8536f5d3f8a37e6c9d5a84b0fcaf4d2cb7e4b1903f751adb25"
+    },
+    {
+      "path": "examples/05-print-v6.png",
+      "bytes": 1292135,
+      "sha256": "655517c3f1e7ccb64cc6b5b3bc1e63355bedc07537f8ed883fef9115ac3fd09d"
+    },
+    {
+      "path": "examples/06-emboss-v6.png",
+      "bytes": 1300978,
+      "sha256": "8315286f24c1887416dbaccd02953a5075b0f52412bf4998e44774eaac7b25e9"
+    },
+    {
+      "path": "examples/07-foil-v6.png",
+      "bytes": 1326904,
+      "sha256": "088fa59f8e27c5c11294859f6e785c414489bce30db54578c19acdf0c65aa1ed"
+    },
+    {
+      "path": "examples/08-metal-v6.png",
+      "bytes": 1330444,
+      "sha256": "bd98bf8aa72302505ea2a135511830871c7fe52f550af9cec4b62d2c793880b7"
+    },
+    {
+      "path": "examples/09-embroidery-v6.png",
+      "bytes": 1531550,
+      "sha256": "db1d4062ec764b82bac5024fd72649125771d2f1960638bc156dc7eff062c414"
+    },
+    {
+      "path": "examples/10-rubber-v6.png",
+      "bytes": 1481243,
+      "sha256": "427329c6bda506d6f4245957d4bdaf18c80baa789be2a57af9318f61206f6360"
+    },
+    {
+      "path": "examples/11-light-v6.png",
+      "bytes": 1421142,
+      "sha256": "59d74f981ff92a1d27f74ef24ff5b17f83f9686a4d5df4b06a413d6a06fb5c9d"
+    },
+    {
+      "path": "examples/12-stencil-v6.png",
+      "bytes": 1463749,
+      "sha256": "1a9a9651e37f9a5c43936b9d6decdd262be7aef355b3e977936c34db5bd971fd"
+    },
+    {
+      "path": "examples/13-digital-v6.png",
+      "bytes": 1484715,
+      "sha256": "887e9bc991b98a5164e6cda1e39e0a92284e54aa970f0998866b85136d85d002"
+    },
+    {
+      "path": "examples/14-motion-v6.png",
+      "bytes": 1463749,
+      "sha256": "1a9a9651e37f9a5c43936b9d6decdd262be7aef355b3e977936c34db5bd971fd"
+    },
+    {
+      "path": "examples/15-background-v6.png",
+      "bytes": 1500875,
+      "sha256": "81d006dfa5ebee8536f5d3f8a37e6c9d5a84b0fcaf4d2cb7e4b1903f751adb25"
+    },
+    {
+      "path": "examples/16-scale-v6.png",
+      "bytes": 1463749,
+      "sha256": "1a9a9651e37f9a5c43936b9d6decdd262be7aef355b3e977936c34db5bd971fd"
+    },
+    {
+      "path": "examples/17-content-v6.png",
+      "bytes": 1500875,
+      "sha256": "81d006dfa5ebee8536f5d3f8a37e6c9d5a84b0fcaf4d2cb7e4b1903f751adb25"
+    },
+    {
+      "path": "examples/18-placement-v6.png",
+      "bytes": 1463749,
+      "sha256": "1a9a9651e37f9a5c43936b9d6decdd262be7aef355b3e977936c34db5bd971fd"
+    },
+    {
+      "path": "examples/19-combination-v6.png",
+      "bytes": 1405553,
+      "sha256": "f6649d8c7d27c2c1f35d24c9590da2fdbeec8ad05880221ab5ee49d4170cd5ef"
+    },
+    {
+      "path": "examples/20-style-v6.png",
+      "bytes": 1463749,
+      "sha256": "1a9a9651e37f9a5c43936b9d6decdd262be7aef355b3e977936c34db5bd971fd"
+    },
+    {
+      "path": "examples/22-levels-v6.png",
+      "bytes": 1217964,
+      "sha256": "cc0bc666c6f0bb5ba37df419a8e27b4ce41e7529d7a93a05915a11da94f11806"
+    },
+    {
+      "path": "examples/23-tone-v6.png",
+      "bytes": 1444464,
+      "sha256": "6d1454f0ccae8b6452237ebc95da27dee04909bb7440f746e3a56ae72a5a807d"
+    },
+    {
+      "path": "examples/24-inversion-v6.png",
+      "bytes": 1750057,
+      "sha256": "47d9333e61834fa82abc33ca17f8dddb1d430fd5576c99a94cba36eb6b71174e"
+    },
+    {
+      "path": "examples/25-glass-v6.png",
+      "bytes": 1603712,
+      "sha256": "617e4e4956b436c5f837a783cce10b7f43a4ac58e6e4eafbf2ab18dc3d9cb970"
+    },
+    {
+      "path": "examples/26-chroma-v6.png",
+      "bytes": 1417243,
+      "sha256": "88d97870f16500a434c77168f5702d268859f33d12f870acc9a3d1d3ce158de7"
+    },
+    {
+      "path": "examples/27-graphic-v6.png",
+      "bytes": 1546156,
+      "sha256": "f36becfc60eb41558eabf01da58130f42a4e634f4435e49737781402a3c06f57"
+    },
+    {
+      "path": "examples/28-boundary-v6.png",
+      "bytes": 1246044,
+      "sha256": "132e12fcd0cfa147d8c4c3a428f392c6bb66bce52abf7b05b80cd65b57bda80c"
+    },
+    {
+      "path": "examples/29-context-v6.png",
+      "bytes": 1714802,
+      "sha256": "695e16ac5be564cb38406245fc458a4558322466867fc610342731c6f93b5226"
+    },
+    {
+      "path": "examples/catalog.json",
+      "bytes": 110535,
+      "sha256": "c427db28a86342462494f13d9f63e4992c175887eb2b8776cc008ac695bcb2dd"
+    },
+    {
+      "path": "fonts/city-brush.ttf",
+      "bytes": 106340,
+      "sha256": "e8fea1191482ff5a1901d0bb5a28e4f45a238d8ed916822c65b0e12aed1fb569"
+    },
+    {
+      "path": "fonts/OFL-MaShanZheng.txt",
+      "bytes": 4397,
+      "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08"
+    },
+    {
+      "path": "gallery-data.json",
+      "bytes": 307,
+      "sha256": "52fcc253d3f5efebc739b6aedfa77e63a83f62ac68669dc993d85b0d12aae0c0"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2788,
+      "sha256": "6833cd918f2dab5664fff7750c4daa539c33c4eb7440acf964bf77ead4928d1c"
+    },
+    {
+      "path": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
+      "bytes": 1443499,
+      "sha256": "5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4"
+    },
+    {
+      "path": "site-assets.json",
+      "bytes": 19098,
+      "sha256": "e5fa0c8366f6ceaa5752b5bd2ea06b5bb54ddc8c24c7ab2355f2daaecd1ec943"
+    }
+  ],
+  "excludedInputFiles": [
+    {
+      "path": "assets/site-B8VapF58.css",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-BjWLxww-.js",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-BMqQ5pXK.js",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-C8rGGTLA.js",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-C8SOpRPx.js",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-CTeP1GRF.css",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-DGyztdtv.js",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-DY2Gg8fK.js",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-DzVZBF23.js",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-jiJenCJM.js",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-MbjdQ3wn.js",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-w6WD4NdU.js",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-zi_Ih379.js",
+      "kind": "file"
+    },
+    {
+      "path": "city/cinema-calibrated-v1/rear-no-foreground-desktop.raw.png",
+      "kind": "file"
+    },
+    {
+      "path": "city/cinema-reference-v1/chair-reveal-v2.raw.png",
+      "kind": "file"
+    },
+    {
+      "path": "city/cinema-reference-v1/detail-reveal-v1.raw.png",
+      "kind": "file"
+    },
+    {
+      "path": "city/cinema-reference-v1/limb-reveal-v1.raw.png",
+      "kind": "file"
+    },
+    {
+      "path": "city/cinema-reference-v1/manifest.json",
+      "kind": "file"
+    },
+    {
+      "path": "city/cinema-reference-v1/original.raw.png",
+      "kind": "file"
+    },
+    {
+      "path": "city/cinema-reference-v1/screen-reveal-v1.raw.png",
+      "kind": "file"
+    },
+    {
+      "path": "city/glass-reference-v1/detailReveal.raw.png",
+      "kind": "file"
+    },
+    {
+      "path": "city/glass-reference-v1/manifest.json",
+      "kind": "file"
+    },
+    {
+      "path": "city/glass-reference-v1/original.raw.png",
+      "kind": "file"
+    },
+    {
+      "path": "city/glass-reference-v1/rear.raw.png",
+      "kind": "file"
+    },
+    {
+      "path": "city/print-reference-v1/detailReveal.raw.png",
+      "kind": "file"
+    },
+    {
+      "path": "city/print-reference-v1/manifest.json",
+      "kind": "file"
+    },
+    {
+      "path": "city/print-reference-v1/original.raw.png",
+      "kind": "file"
+    },
+    {
+      "path": "city/print-reference-v1/rear.raw.png",
+      "kind": "file"
+    }
+  ]
+}
