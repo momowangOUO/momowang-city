@@ -3,9 +3,9 @@
   "entry": "index.html",
   "files": [
     {
-      "path": "assets/site-BjUBbqUY.js",
-      "bytes": 877481,
-      "sha256": "7694969d3d444b60e279558f754cdc776c2816b38f0989a8495fe04f2c1a16e7"
+      "path": "assets/site-Cxh3w5ik.js",
+      "bytes": 888417,
+      "sha256": "e8b1e01fec3f91e2ada9aac055e70a23c71af3fc50f699fd0d90d45786ac04bf"
     },
     {
       "path": "assets/site-ZIzf4mnR.css",
@@ -13,9 +13,9 @@
       "sha256": "121d94a50c7a969f71a8dcc1f24e5cf5071551d7a66df9d9797c18f0bef38839"
     },
     {
-      "path": "assets/station-world-resident-worker-DzMjXK_M.js",
-      "bytes": 378468,
-      "sha256": "f944a1c2d60155cecc633d215eae608ed389da3dbcafa14bdf790ef7da8d9e20"
+      "path": "assets/station-world-resident-worker-BjvMTwzr.js",
+      "bytes": 383544,
+      "sha256": "233f6e9b31e8bae73452d3e28b413aee2d13ca8afed52175bc70697d0fb4b600"
     },
     {
       "path": "city/cinema-pose-v2/chairReveal.raw.png",
@@ -216,6 +216,11 @@
       "path": "city/entry-reference-v1/rear.raw.png",
       "bytes": 2872115,
       "sha256": "f32436e721310a0d0034a646906fd09f6fcbbd32fd7aa5dd930a14a3bd49442d"
+    },
+    {
+      "path": "city/eye-rig-v2/iris.raw.png",
+      "bytes": 1870717,
+      "sha256": "6712faa83065d242bec321a4f6c469911eb0058361b6bd9bc57e93c0118113fd"
     },
     {
       "path": "city/glass-pose-v2/detailReveal.raw.png",
@@ -550,7 +555,7 @@
     {
       "path": "index.html",
       "bytes": 2788,
-      "sha256": "6833cd918f2dab5664fff7750c4daa539c33c4eb7440acf964bf77ead4928d1c"
+      "sha256": "1a8fd9de7856c235f009c4cc6b92325cdc5886aa0eb7103f070136adf9b9adad"
     },
     {
       "path": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
