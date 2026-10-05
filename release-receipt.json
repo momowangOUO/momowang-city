@@ -1,15 +1,16 @@
 {
   "schemaVersion": 1,
-  "createdAt": "2026-10-05T07:27:02.269Z",
+  "createdAt": "2026-10-05T08:20:37.712Z",
   "status": "local-package-unpublished",
   "published": false,
   "publicationReady": false,
   "source": {
     "gitAvailable": true,
-    "observedHead": "1d20635ed7a7fc71f2c045b1df057364d4282851",
+    "observedHead": "fc525064f52a48f84c3f8e2fa0e7d5d9b6ff4be4",
     "dirty": false,
+    "diagnostic": null,
     "status": "bound",
-    "sourceCommit": "1d20635ed7a7fc71f2c045b1df057364d4282851",
+    "sourceCommit": "fc525064f52a48f84c3f8e2fa0e7d5d9b6ff4be4",
     "reason": "Explicit commit equals clean source HEAD; this does not prove this bundle was built from that commit."
   },
   "qualification": "Local validation/staging only. No Git mutation or deployment. Explicit source binding alone is not clean-build provenance or visual/mobile acceptance.",
