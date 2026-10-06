@@ -1,9 +1,9 @@
 {
-  "sourceCommit": "5e8f151e6cee18824906acd19fa2142d40ba1d50",
-  "builtAt": "2026-10-06T03:10:06.8367828Z",
+  "sourceCommit": "e70839af2fdcd9e21cc6c9d4dbdbb8bea7e20b79",
+  "builtAt": "2026-10-06T03:20:18.4181031Z",
   "site": "https://momowangouo.github.io/momowang-city/",
-  "indexSha256": "211d0acb4f05821cfe7150b417f1685f136a848e4bdbcd161bbb23c7dd9ad476",
-  "manifestSha256": "b99bb3e081e558663c110fc7ba69d01027b7739e1656560155264854bf810703",
+  "indexSha256": "c68ccd8a370c96654a28fd0ce95de2f36096497829480fefede85db098bdff26",
+  "manifestSha256": "478df3c6678bb88434dc861f7bbe3fa8dd375fca3237fc883dd8d4770032a1e8",
   "scenes": 6,
   "groups": 28,
   "variants": 161,
@@ -11,6 +11,6 @@
   "physicalMobileAcceptance": "pending",
   "preload": "worker-textures-bounded-shader-rounds-v2",
   "depth": "rigid-aperture-layered-observation-v3",
-  "rollbackStaticCommit": "432f89859df75858757e6b72b019998ea3a91179",
-  "sensors": "auto-when-ungated-manual-permission-fallback"
+  "rollbackStaticCommit": "991f067da4de67b4a279dbdd3c3e6c1414c0512f",
+  "sensors": "first-screen-permission-concurrent-preload-v2"
 }

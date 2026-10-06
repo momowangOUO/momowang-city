@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#101019"><meta name="description" content="魔魔王的个人街区：作品、签名与视觉实验。"><link rel="icon" href="data:,"><title>魔魔王 · 午夜街区</title>  <script type="module" crossorigin src="./assets/site-BA9b8ED_.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/site-Cd_LzLB9.css">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#101019"><meta name="description" content="魔魔王的个人街区：作品、签名与视觉实验。"><link rel="icon" href="data:,"><title>魔魔王 · 午夜街区</title>  <script type="module" crossorigin src="./assets/site-UrkUVAr4.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/site-cUMT3UCz.css">
 </head>
 <body class="station-city-page continuous-world-page">
 <main id="station-world" aria-busy="true">
@@ -11,6 +11,15 @@
       <div class="world-loading-track" aria-hidden="true"></div>
       <h2 class="world-loading-title">街区正在亮灯。</h2>
       <p id="station-loading-message" class="world-loading-message" role="status">正在准备街景与人物。</p>
+      <section id="station-loading-sensor" class="world-loading-sensor" aria-labelledby="station-loading-sensor-title" hidden>
+        <h3 id="station-loading-sensor-title">开启体感，看看街景纵深</h3>
+        <p id="station-loading-sensor-description">轻轻转动手机，街景会随之变化。授权后自动进入；也可以直接浏览。</p>
+        <div class="world-loading-sensor-actions">
+          <button id="station-loading-sensor-start">开启体感并进入</button>
+          <button id="station-loading-sensor-skip" class="world-loading-sensor-skip">直接浏览</button>
+        </div>
+        <p id="station-loading-sensor-message" class="world-loading-sensor-status" role="status" hidden></p>
+      </section>
       <button id="station-loading-retry" hidden>重新加载</button>
     </div>
   </section>
