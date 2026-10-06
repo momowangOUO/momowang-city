@@ -151,20 +151,44 @@
         "depth": -9.9,
         "sourcePolygon": [
           [
-            347,
-            107
+            355,
+            110
           ],
           [
-            371,
-            91
+            361,
+            105
+          ],
+          [
+            369,
+            99
+          ],
+          [
+            378,
+            94
+          ],
+          [
+            387,
+            90
+          ],
+          [
+            398,
+            87
           ],
           [
             408,
             86
           ],
           [
+            421,
+            88
+          ],
+          [
+            433,
+            92
+          ],
+          [
             443,
-            95
+            96
           ],
           [
             466,
@@ -411,8 +435,20 @@
             184
           ],
           [
-            341,
-            157
+            331,
+            156
+          ],
+          [
+            336,
+            146
+          ],
+          [
+            342,
+            135
+          ],
+          [
+            349,
+            119
           ]
         ]
       },
@@ -423,68 +459,188 @@
         "depth": -9.805,
         "sourcePolygon": [
           [
+            355,
+            110
+          ],
+          [
+            353,
+            136
+          ],
+          [
+            353,
+            158
+          ],
+          [
             352,
-            115
-          ],
-          [
-            351,
-            143
-          ],
-          [
-            351,
             183
           ],
           [
-            337,
-            210
+            342,
+            206
           ],
           [
-            318,
-            229
+            327,
+            224
           ],
           [
-            294,
-            237
+            309,
+            235
+          ],
+          [
+            290,
+            239
           ],
           [
             277,
             241
           ],
           [
-            268,
-            234
+            278,
+            236
           ],
           [
-            264,
-            234
+            280,
+            231
           ],
           [
-            259,
-            230
+            284,
+            225
           ],
           [
-            265,
-            223
+            294,
+            219
           ],
           [
-            277,
+            301,
             211
           ],
           [
-            290,
-            194
+            307,
+            202
           ],
           [
-            308,
-            172
+            314,
+            193
           ],
           [
-            326,
-            149
+            319,
+            184
+          ],
+          [
+            324,
+            175
+          ],
+          [
+            328,
+            165
+          ],
+          [
+            333,
+            154
+          ],
+          [
+            336,
+            145
+          ],
+          [
+            342,
+            136
+          ],
+          [
+            347,
+            127
+          ],
+          [
+            351,
+            118
+          ]
+        ]
+      },
+      {
+        "id": "scalp-rear-flyaway",
+        "parent": "resident",
+        "role": "fixed",
+        "depth": -9.804,
+        "sourcePolygon": [
+          [
+            340,
+            132
+          ],
+          [
+            336,
+            137
+          ],
+          [
+            333,
+            140
+          ],
+          [
+            329,
+            145
+          ],
+          [
+            325,
+            150
+          ],
+          [
+            322,
+            155
+          ],
+          [
+            318,
+            160
+          ],
+          [
+            315,
+            165
+          ],
+          [
+            313,
+            170
+          ],
+          [
+            312,
+            173
+          ],
+          [
+            314,
+            174
+          ],
+          [
+            315,
+            171
+          ],
+          [
+            317,
+            166
+          ],
+          [
+            320,
+            161
+          ],
+          [
+            324,
+            156
+          ],
+          [
+            327,
+            151
+          ],
+          [
+            331,
+            146
+          ],
+          [
+            335,
+            141
           ],
           [
             338,
-            128
+            137
+          ],
+          [
+            342,
+            133
           ]
         ]
       },
@@ -6661,6 +6817,7 @@
           "subtractFrom": [
             "resident",
             "scalp-fixed",
+            "scalp-rear-flyaway",
             "torso",
             "support-sleeve",
             "knee-sleeve",
@@ -6802,6 +6959,7 @@
           "subtractFrom": [
             "resident",
             "scalp-fixed",
+            "scalp-rear-flyaway",
             "torso",
             "support-sleeve",
             "knee-sleeve",
@@ -7019,6 +7177,7 @@
           "subtractFrom": [
             "resident",
             "scalp-fixed",
+            "scalp-rear-flyaway",
             "torso",
             "support-sleeve",
             "knee-sleeve",
@@ -7129,6 +7288,7 @@
           "subtractFrom": [
             "resident",
             "scalp-fixed",
+            "scalp-rear-flyaway",
             "torso",
             "support-sleeve",
             "knee-sleeve",
@@ -7305,6 +7465,7 @@
           "subtractFrom": [
             "resident",
             "scalp-fixed",
+            "scalp-rear-flyaway",
             "torso",
             "support-sleeve",
             "knee-sleeve",
@@ -7501,6 +7662,7 @@
           "subtractFrom": [
             "resident",
             "scalp-fixed",
+            "scalp-rear-flyaway",
             "torso",
             "support-sleeve",
             "knee-sleeve",
@@ -7703,6 +7865,7 @@
           "subtractFrom": [
             "resident",
             "scalp-fixed",
+            "scalp-rear-flyaway",
             "torso",
             "support-sleeve",
             "knee-sleeve",
@@ -7919,6 +8082,7 @@
           "subtractFrom": [
             "resident",
             "scalp-fixed",
+            "scalp-rear-flyaway",
             "torso",
             "support-sleeve",
             "knee-sleeve",
@@ -8050,6 +8214,7 @@
           "subtractFrom": [
             "resident",
             "scalp-fixed",
+            "scalp-rear-flyaway",
             "torso",
             "support-sleeve",
             "knee-sleeve",

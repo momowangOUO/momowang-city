@@ -1,41 +1,46 @@
 {
   "schemaVersion": 1,
-  "createdAt": "2026-10-05T18:22:10.713Z",
+  "createdAt": "2026-10-06T03:09:47.350Z",
   "status": "local-package-unpublished",
   "published": false,
   "publicationReady": false,
   "source": {
     "gitAvailable": true,
-    "observedHead": "fc2e55042bbcc858cde7cb4eeb6437a88f684b1e",
+    "observedHead": "5e8f151e6cee18824906acd19fa2142d40ba1d50",
     "dirty": false,
     "diagnostic": null,
     "status": "bound",
-    "sourceCommit": "fc2e55042bbcc858cde7cb4eeb6437a88f684b1e",
+    "sourceCommit": "5e8f151e6cee18824906acd19fa2142d40ba1d50",
     "reason": "Explicit commit equals clean source HEAD; this does not prove this bundle was built from that commit."
   },
   "qualification": "Local validation/staging only. No Git mutation or deployment. Explicit source binding alone is not clean-build provenance or visual/mobile acceptance.",
   "entry": "index.html",
   "manifest": {
     "path": "site-assets.json",
-    "sha256": "c3923de07ce44fb3fa00309eff05561e3eae1ec64107cbeac7e5aa96f68df89a"
+    "sha256": "b99bb3e081e558663c110fc7ba69d01027b7739e1656560155264854bf810703"
   },
-  "payloadFileCount": 113,
-  "payloadBytes": 171896946,
+  "payloadFileCount": 114,
+  "payloadBytes": 171907890,
   "files": [
+    {
+      "path": "assets/site-BA9b8ED_.js",
+      "bytes": 910353,
+      "sha256": "12a9255dcf20cef7747b9be31758caf0ba7d1ffc567b9a5ccf6add832a8b9805"
+    },
     {
       "path": "assets/site-Cd_LzLB9.css",
       "bytes": 60470,
       "sha256": "c4f54502af713cb10994c453e699fb5eb49006eb7f5e187e030363cdd42717fe"
     },
     {
-      "path": "assets/site-CHfwBZAX.js",
-      "bytes": 903265,
-      "sha256": "e1b6851db2bf42237ba8a2884532a1b4ade9bf6b15f8fe82a80466d9966f8f06"
-    },
-    {
       "path": "assets/station-world-resident-worker-COxdW7XI.js",
       "bytes": 388699,
       "sha256": "4e668703198616b669d7599c9a594ba574032a252ac08f3b7df1a7a2e17767bb"
+    },
+    {
+      "path": "assets/station-world-texture-worker-BhHvs6Vc.js",
+      "bytes": 1058,
+      "sha256": "0900a6c4c9e66f128bd4bb595b12d998e586aa444a5ce5dc6bfe406a82953358"
     },
     {
       "path": "city/cinema-pose-v2/chairReveal.raw.png",
@@ -254,8 +259,8 @@
     },
     {
       "path": "city/glass-pose-v2/manifest.json",
-      "bytes": 162481,
-      "sha256": "3d7fe9b5a1e0e995292ecc367a50ddddcc1092c5d047daf9dd8d98d675ef4207"
+      "bytes": 165097,
+      "sha256": "87393c00db3fe6e3c30432761b02acbe373f4ddedad88b330ff2bf6025cc9746"
     },
     {
       "path": "city/glass-pose-v2/original.raw.png",
@@ -575,7 +580,7 @@
     {
       "path": "index.html",
       "bytes": 3401,
-      "sha256": "e432587bc60b7c318668c04da1f49c74ad0a9f189f9d22b4e2eb980e568719c6"
+      "sha256": "211d0acb4f05821cfe7150b417f1685f136a848e4bdbcd161bbb23c7dd9ad476"
     },
     {
       "path": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
@@ -584,8 +589,8 @@
     },
     {
       "path": "site-assets.json",
-      "bytes": 19264,
-      "sha256": "c3923de07ce44fb3fa00309eff05561e3eae1ec64107cbeac7e5aa96f68df89a"
+      "bytes": 19446,
+      "sha256": "b99bb3e081e558663c110fc7ba69d01027b7739e1656560155264854bf810703"
     }
   ],
   "excludedInputFiles": [
@@ -611,6 +616,10 @@
     },
     {
       "path": "assets/site-C8SOpRPx.js",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-CHfwBZAX.js",
       "kind": "file"
     },
     {
