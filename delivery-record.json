@@ -1,17 +1,17 @@
 {
   "date": "2026-10-12",
-  "sourceCommit": "16362219b122332baab6003a54e054fe2ffd271d",
-  "previousStaticCommit": "2d6fbc8eb7dbe22ae691c37a2ce8c2e05c614fb9",
-  "rollbackTag": "rollback-before-loading-fix-20261012",
+  "sourceCommit": "9dd9a67635408072d85956938c4ae08a0c4715e6",
+  "previousStaticCommit": "d54bde65df3edd2893188b2bfa655d8d37e6c083",
+  "rollbackTag": "rollback-before-panorama-20261012",
   "tests": {
     "failed": 0,
-    "passed": 861
+    "passed": 893
   },
   "builds": [
     "site",
     "tool"
   ],
-  "localBrowserReview": "six stops, five connectors, desktop and portrait; supplementary framing and terminal checks",
+  "localBrowserReview": "six stops and five forward/reverse corridors; desktop 1280x720 and 1920x1080; synthetic phone panorama 640x360,844x390,915x412 and portrait rotation; fixed-frame terminal alignment",
   "phoneDeviceReview": "not-performed",
   "packageReceipt": "release-receipt.json",
   "report": {
@@ -20,5 +20,14 @@
     "path": "design-report.pdf"
   },
   "note": "Package receipt describes local staging. Live deployment is verified separately after GitHub Pages publishes.",
-  "loadingLogoFix": "Native lossless 168-frame WebP; unchanged 5.6s write/hold/erase loop; no per-pixel runtime or progress resets."
+  "loadingLogoFix": "Native lossless 168-frame WebP; unchanged 5.6s write/hold/erase loop; no per-pixel runtime or progress resets.",
+  "panoramaAndRouteFix": "Coarse-pointer landscape panorama with rigid external frame; direct drag matches finger and snaps only on release; bounded complete-route admission on both device modes; verified offline alpha and worker cinema geometry.",
+  "measuredTravel": {
+    "deviceValidation": "pending",
+    "syntheticMobileMaxMs": 17.4,
+    "heavyPreparationDuringTravel": 0,
+    "desktopMaxMs": 25.4,
+    "desktopOver50": 0,
+    "syntheticMobileOver50": 0
+  }
 }
