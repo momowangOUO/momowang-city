@@ -1,11 +1,11 @@
 {
   "date": "2026-10-12",
-  "sourceCommit": "35ed00869131d07cfd587d453eb5a3af21caaa3d",
-  "previousStaticCommit": "82ac6674e13cf188ced8e20d2c6f9abb16427a86",
-  "rollbackTag": "rollback-before-stable-20261012",
+  "sourceCommit": "16362219b122332baab6003a54e054fe2ffd271d",
+  "previousStaticCommit": "2d6fbc8eb7dbe22ae691c37a2ce8c2e05c614fb9",
+  "rollbackTag": "rollback-before-loading-fix-20261012",
   "tests": {
     "failed": 0,
-    "passed": 859
+    "passed": 861
   },
   "builds": [
     "site",
@@ -19,5 +19,6 @@
     "sha256": "f4278a3866c4584b0cf31552b67611e2f32ec1a514dcd50dd7417ac1a4c23866",
     "path": "design-report.pdf"
   },
-  "note": "Package receipt describes local staging. Live deployment is verified separately after GitHub Pages publishes."
+  "note": "Package receipt describes local staging. Live deployment is verified separately after GitHub Pages publishes.",
+  "loadingLogoFix": "Native lossless 168-frame WebP; unchanged 5.6s write/hold/erase loop; no per-pixel runtime or progress resets."
 }

@@ -1,36 +1,36 @@
 {
   "schemaVersion": 1,
-  "createdAt": "2026-10-11T16:56:22.052Z",
+  "createdAt": "2026-10-11T17:37:59.127Z",
   "status": "local-package-unpublished",
   "published": false,
   "publicationReady": false,
   "source": {
     "gitAvailable": true,
-    "observedHead": "35ed00869131d07cfd587d453eb5a3af21caaa3d",
+    "observedHead": "16362219b122332baab6003a54e054fe2ffd271d",
     "dirty": false,
     "diagnostic": null,
     "status": "bound",
-    "sourceCommit": "35ed00869131d07cfd587d453eb5a3af21caaa3d",
+    "sourceCommit": "16362219b122332baab6003a54e054fe2ffd271d",
     "reason": "Explicit commit equals clean source HEAD; this does not prove this bundle was built from that commit."
   },
   "qualification": "Local validation/staging only. No Git mutation or deployment. Explicit source binding alone is not clean-build provenance or visual/mobile acceptance.",
   "entry": "index.html",
   "manifest": {
     "path": "site-assets.json",
-    "sha256": "ad4b85f22458297b23d09667fe2d3c4c92ba20ed11f766923f09d1166cb42e83"
+    "sha256": "7b43239b3465b2d0c131728e202d07156bc466ca136275b766b217b3152a621c"
   },
-  "payloadFileCount": 165,
-  "payloadBytes": 286475231,
+  "payloadFileCount": 167,
+  "payloadBytes": 286871466,
   "files": [
     {
-      "path": "assets/site-BMQyrPmY.js",
-      "bytes": 1350079,
-      "sha256": "1c422ec5ffa72c2e72de05da067787f441a4a777b049c09a41ea3e885dd7088e"
+      "path": "assets/site-BAzxvY4B.css",
+      "bytes": 110174,
+      "sha256": "e9de5bd3fec13e21304385a80a64b28d37a96cd1dd1052081c74a322fb966ecb"
     },
     {
-      "path": "assets/site-CqZWPypr.css",
-      "bytes": 110104,
-      "sha256": "6d4f51a6b305da5177f937fe4f5e0db0f37f0a4cfc50a863d471ddd3561dc34f"
+      "path": "assets/site-Bb5hzrUp.js",
+      "bytes": 1343439,
+      "sha256": "8327fb8034f1f88049f1a9e5ed8a526347ac8378ea5f0116ab9961f0ca0e8ff8"
     },
     {
       "path": "assets/station-world-mobile-core-worker-gmLEF4i8.js",
@@ -834,8 +834,18 @@
     },
     {
       "path": "index.html",
-      "bytes": 4226,
-      "sha256": "21f1b733680cb89904dec3075d5f405693473876bea2b0063a048c462d1e0402"
+      "bytes": 4396,
+      "sha256": "6dfca20ff761c4169d250ccf02835f5df73e5680f68e58a4c4da992476547161"
+    },
+    {
+      "path": "loading/logo-handwriting.webp",
+      "bytes": 381572,
+      "sha256": "9ad7c97d1c7f1d08370ce868c09eb341da5bf0f652839d2fc3477f0ff506725f"
+    },
+    {
+      "path": "loading/logo-still.webp",
+      "bytes": 20738,
+      "sha256": "1d3d4b8806457efb7eb6f7d4e07bcc1290cf28c783d19e1c63c891eb1ead8d97"
     },
     {
       "path": "originals/5c15e93fb8e37a634e5421816424a763ccb4d17769a67fbc48fb9eba93e175c4.png",
@@ -844,8 +854,8 @@
     },
     {
       "path": "site-assets.json",
-      "bytes": 28890,
-      "sha256": "ad4b85f22458297b23d09667fe2d3c4c92ba20ed11f766923f09d1166cb42e83"
+      "bytes": 29215,
+      "sha256": "7b43239b3465b2d0c131728e202d07156bc466ca136275b766b217b3152a621c"
     }
   ],
   "excludedInputFiles": [
@@ -934,6 +944,10 @@
       "kind": "file"
     },
     {
+      "path": "assets/site-BMQyrPmY.js",
+      "kind": "file"
+    },
+    {
       "path": "assets/site-BnPCV5El.js",
       "kind": "file"
     },
@@ -1011,6 +1025,10 @@
     },
     {
       "path": "assets/site-COjDW5R7.js",
+      "kind": "file"
+    },
+    {
+      "path": "assets/site-CqZWPypr.css",
       "kind": "file"
     },
     {
