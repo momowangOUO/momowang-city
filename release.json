@@ -1,16 +1,16 @@
 {
-  "sourceCommit": "e70839af2fdcd9e21cc6c9d4dbdbb8bea7e20b79",
-  "builtAt": "2026-10-06T03:20:18.4181031Z",
+  "sourceCommit": "e292d899afb024db96eae0431998569f2ce01d40",
+  "builtAt": "2026-10-14T13:47:16.396Z",
   "site": "https://momowangouo.github.io/momowang-city/",
-  "indexSha256": "c68ccd8a370c96654a28fd0ce95de2f36096497829480fefede85db098bdff26",
-  "manifestSha256": "478df3c6678bb88434dc861f7bbe3fa8dd375fca3237fc883dd8d4770032a1e8",
+  "indexSha256": "750b22b7dd3eb8c3c9076aebb241c773eeebceea432a2aac2dc7cf81ef97425c",
+  "manifestSha256": "26089440cdb0f468b9f2d38f0933e568356e0d81f634389c00ac91023371565d",
   "scenes": 6,
-  "groups": 28,
-  "variants": 161,
   "eyeRig": "original-fixed-gaze-local-blink-v1",
   "physicalMobileAcceptance": "pending",
-  "preload": "worker-textures-bounded-shader-rounds-v2",
-  "depth": "rigid-aperture-layered-observation-v3",
-  "rollbackStaticCommit": "991f067da4de67b4a279dbdd3c3e6c1414c0512f",
-  "sensors": "first-screen-permission-concurrent-preload-v2"
+  "preload": "worker-textures-shared-vector-mask-programs",
+  "depth": "coherent-middle-separate-rear-native-source-v4",
+  "rollbackStaticCommit": "737f94ac60367fdf85a4e30a1199f1c07a924f85",
+  "rollbackTag": "rollback-before-component-fix-20261014",
+  "visualAcceptance": "major-component-cutout-fixes-reviewed",
+  "performanceQualification": "Development browser measurements only; real phone and all-device cold startup remain unverified."
 }

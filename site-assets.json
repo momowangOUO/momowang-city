@@ -8,14 +8,14 @@
       "sha256": "b0b562ca05bc7004a2ee1cd1c36db6e316ca9e2caf49e916337ab0cd8711d8e0"
     },
     {
-      "path": "assets/site-kDpPYL2H.js",
-      "bytes": 1413321,
-      "sha256": "8fd5b9f5ed3e368ffcb91e0ff2024b2a1b8e0cc7593bff81786cf7ed35b1937b"
+      "path": "assets/site-gySKYfr4.js",
+      "bytes": 1448217,
+      "sha256": "1ce7a3e207c2b92647ed2f53115ce301df73b505e0a57484a0fe029c6bf54ea3"
     },
     {
-      "path": "assets/station-world-cinema01-worker-DrfBQDqA.js",
-      "bytes": 164764,
-      "sha256": "7162aedd3f5e2eb663f53a54a2315030ecfce41184c3e77d7d17f29bbdf84e2b"
+      "path": "assets/station-world-cinema01-worker-Lsci-1cn.js",
+      "bytes": 166073,
+      "sha256": "32ea29f144d180be829573b2f6fabbdf97f96cc620be349e9e1fae7147e65491"
     },
     {
       "path": "assets/station-world-mobile-core-worker-gmLEF4i8.js",
@@ -28,9 +28,9 @@
       "sha256": "c90bd4cce4a15f6ac85d9423dff02580b03c0dff1568b939b5ca925d4f3cc059"
     },
     {
-      "path": "assets/station-world-resident-worker-Btu7H4RJ.js",
-      "bytes": 390512,
-      "sha256": "3060fc882dce2564223f1fcc0bdbea3c5eac595f46b8c3018ff681a2493269bb"
+      "path": "assets/station-world-resident-worker-BmNvgHur.js",
+      "bytes": 392956,
+      "sha256": "16478c0d09c2275788004c66ddaea1275deecab0a5724c760fa79b375870c01f"
     },
     {
       "path": "assets/station-world-texture-worker-CbTwYWtF.js",
@@ -126,6 +126,11 @@
       "path": "city/city.png",
       "bytes": 2725684,
       "sha256": "cd3545d558c5397ee3a4228ca6b6e72836bee6e0ac620f738d408de1cf18dba5"
+    },
+    {
+      "path": "city/coherent-depth-v1/city-underpaint-v1.raw.png",
+      "bytes": 2696174,
+      "sha256": "87b9d9b66d10e7f234bf7f296b57052d018088c0950654f5aab8bcd77badf929"
     },
     {
       "path": "city/connector-depth-v1/tile01-local-repair-v2.raw.png",
@@ -898,6 +903,11 @@
       "sha256": "b07e63134810f5083112f3b8be86eaed95c45c1cfdea9d9c901af87434284621"
     },
     {
+      "path": "city/runtime-alpha-v1/87b9d9b66d10e7f234bf7f296b57052d018088c0950654f5aab8bcd77badf929.alpha.gz",
+      "bytes": 21,
+      "sha256": "b07e63134810f5083112f3b8be86eaed95c45c1cfdea9d9c901af87434284621"
+    },
+    {
       "path": "city/runtime-alpha-v1/882139c2c318ff685abc3733451d4a2876e2d3772d70f15983c4f644e651a8bc.alpha.gz",
       "bytes": 103520,
       "sha256": "e44ac7873748d6741db5a6cb5b3f7061cdc287558beb8b7b25441b4359e10db9"
@@ -1400,7 +1410,7 @@
     {
       "path": "index.html",
       "bytes": 5223,
-      "sha256": "0207331da25af0085e3727c4bc83fbf16c1beee5433d7a5b1cd727b2d41e12d9"
+      "sha256": "750b22b7dd3eb8c3c9076aebb241c773eeebceea432a2aac2dc7cf81ef97425c"
     },
     {
       "path": "loading/logo-handwriting.webp",

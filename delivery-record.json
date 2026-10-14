@@ -1,33 +1,28 @@
 {
-  "date": "2026-10-12",
-  "sourceCommit": "9dd9a67635408072d85956938c4ae08a0c4715e6",
-  "previousStaticCommit": "d54bde65df3edd2893188b2bfa655d8d37e6c083",
-  "rollbackTag": "rollback-before-panorama-20261012",
+  "date": "2026-10-14T13:47:16.433Z",
+  "sourceCommit": "e292d899afb024db96eae0431998569f2ce01d40",
+  "previousStaticCommit": "737f94ac60367fdf85a4e30a1199f1c07a924f85",
+  "rollbackTag": "rollback-before-component-fix-20261014",
   "tests": {
-    "failed": 0,
-    "passed": 893
+    "passed": 929,
+    "failed": 0
   },
   "builds": [
     "site",
     "tool"
   ],
-  "localBrowserReview": "six stops and five forward/reverse corridors; desktop 1280x720 and 1920x1080; synthetic phone panorama 640x360,844x390,915x412 and portrait rotation; fixed-frame terminal alignment",
+  "sourceState": "clean amended source rebuilt before staging",
+  "localBrowserReview": "six native character bodies, eleven environment tiles, shared objects; production stops/forward-return route/screen03; phone844x390 panorama and390x844rotation prompt",
   "phoneDeviceReview": "not-performed",
-  "packageReceipt": "release-receipt.json",
   "report": {
-    "bytes": 8496193,
-    "sha256": "f4278a3866c4584b0cf31552b67611e2f32ec1a514dcd50dd7417ac1a4c23866",
-    "path": "design-report.pdf"
+    "path": "design-report.pdf",
+    "bytes": 7855338,
+    "sha256": "43cb7928ef00ad41253081c3cb7d43fb8a83c297063aeda2a6b33913af038140"
   },
-  "note": "Package receipt describes local staging. Live deployment is verified separately after GitHub Pages publishes.",
-  "loadingLogoFix": "Native lossless 168-frame WebP; unchanged 5.6s write/hold/erase loop; no per-pixel runtime or progress resets.",
-  "panoramaAndRouteFix": "Coarse-pointer landscape panorama with rigid external frame; direct drag matches finger and snaps only on release; bounded complete-route admission on both device modes; verified offline alpha and worker cinema geometry.",
-  "measuredTravel": {
-    "deviceValidation": "pending",
-    "syntheticMobileMaxMs": 17.4,
-    "heavyPreparationDuringTravel": 0,
-    "desktopMaxMs": 25.4,
-    "desktopOver50": 0,
-    "syntheticMobileOver50": 0
-  }
+  "files": 286,
+  "bytes": 290781530,
+  "manifestSha256": "26089440cdb0f468b9f2d38f0933e568356e0d81f634389c00ac91023371565d",
+  "preservedPreviousHashedAssets": true,
+  "oldReleasePackagesDeletion": "blocked by policy, not retried",
+  "publication": "awaiting-push-and-online-verification"
 }

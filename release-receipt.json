@@ -1,26 +1,15 @@
 {
   "schemaVersion": 1,
-  "createdAt": "2026-10-11T18:45:15.830Z",
-  "status": "local-package-unpublished",
-  "published": false,
-  "publicationReady": false,
-  "source": {
-    "gitAvailable": true,
-    "observedHead": "9dd9a67635408072d85956938c4ae08a0c4715e6",
-    "dirty": false,
-    "diagnostic": null,
-    "status": "bound",
-    "sourceCommit": "9dd9a67635408072d85956938c4ae08a0c4715e6",
-    "reason": "Explicit commit equals clean source HEAD; this does not prove this bundle was built from that commit."
-  },
-  "qualification": "Local validation/staging only. No Git mutation or deployment. Explicit source binding alone is not clean-build provenance or visual/mobile acceptance.",
+  "sourceCommit": "e292d899afb024db96eae0431998569f2ce01d40",
+  "sourceBinding": "clean HEAD verified",
+  "qualification": "Native visual correction release; not formal signature manufacturing approval or physical-device acceptance.",
   "entry": "index.html",
   "manifest": {
     "path": "site-assets.json",
-    "sha256": "1ec93375b92abfd01546e28126d334d8a861978d1798004ac3e1c04950413821"
+    "sha256": "26089440cdb0f468b9f2d38f0933e568356e0d81f634389c00ac91023371565d"
   },
-  "payloadFileCount": 284,
-  "payloadBytes": 288046271,
+  "payloadFileCount": 286,
+  "payloadBytes": 290781530,
   "files": [
     {
       "path": "assets/site-DIgeFeZB.css",
@@ -28,14 +17,14 @@
       "sha256": "b0b562ca05bc7004a2ee1cd1c36db6e316ca9e2caf49e916337ab0cd8711d8e0"
     },
     {
-      "path": "assets/site-kDpPYL2H.js",
-      "bytes": 1413321,
-      "sha256": "8fd5b9f5ed3e368ffcb91e0ff2024b2a1b8e0cc7593bff81786cf7ed35b1937b"
+      "path": "assets/site-gySKYfr4.js",
+      "bytes": 1448217,
+      "sha256": "1ce7a3e207c2b92647ed2f53115ce301df73b505e0a57484a0fe029c6bf54ea3"
     },
     {
-      "path": "assets/station-world-cinema01-worker-DrfBQDqA.js",
-      "bytes": 164764,
-      "sha256": "7162aedd3f5e2eb663f53a54a2315030ecfce41184c3e77d7d17f29bbdf84e2b"
+      "path": "assets/station-world-cinema01-worker-Lsci-1cn.js",
+      "bytes": 166073,
+      "sha256": "32ea29f144d180be829573b2f6fabbdf97f96cc620be349e9e1fae7147e65491"
     },
     {
       "path": "assets/station-world-mobile-core-worker-gmLEF4i8.js",
@@ -48,9 +37,9 @@
       "sha256": "c90bd4cce4a15f6ac85d9423dff02580b03c0dff1568b939b5ca925d4f3cc059"
     },
     {
-      "path": "assets/station-world-resident-worker-Btu7H4RJ.js",
-      "bytes": 390512,
-      "sha256": "3060fc882dce2564223f1fcc0bdbea3c5eac595f46b8c3018ff681a2493269bb"
+      "path": "assets/station-world-resident-worker-BmNvgHur.js",
+      "bytes": 392956,
+      "sha256": "16478c0d09c2275788004c66ddaea1275deecab0a5724c760fa79b375870c01f"
     },
     {
       "path": "assets/station-world-texture-worker-CbTwYWtF.js",
@@ -146,6 +135,11 @@
       "path": "city/city.png",
       "bytes": 2725684,
       "sha256": "cd3545d558c5397ee3a4228ca6b6e72836bee6e0ac620f738d408de1cf18dba5"
+    },
+    {
+      "path": "city/coherent-depth-v1/city-underpaint-v1.raw.png",
+      "bytes": 2696174,
+      "sha256": "87b9d9b66d10e7f234bf7f296b57052d018088c0950654f5aab8bcd77badf929"
     },
     {
       "path": "city/connector-depth-v1/tile01-local-repair-v2.raw.png",
@@ -918,6 +912,11 @@
       "sha256": "b07e63134810f5083112f3b8be86eaed95c45c1cfdea9d9c901af87434284621"
     },
     {
+      "path": "city/runtime-alpha-v1/87b9d9b66d10e7f234bf7f296b57052d018088c0950654f5aab8bcd77badf929.alpha.gz",
+      "bytes": 21,
+      "sha256": "b07e63134810f5083112f3b8be86eaed95c45c1cfdea9d9c901af87434284621"
+    },
+    {
       "path": "city/runtime-alpha-v1/882139c2c318ff685abc3733451d4a2876e2d3772d70f15983c4f644e651a8bc.alpha.gz",
       "bytes": 103520,
       "sha256": "e44ac7873748d6741db5a6cb5b3f7061cdc287558beb8b7b25441b4359e10db9"
@@ -1420,7 +1419,7 @@
     {
       "path": "index.html",
       "bytes": 5223,
-      "sha256": "0207331da25af0085e3727c4bc83fbf16c1beee5433d7a5b1cd727b2d41e12d9"
+      "sha256": "750b22b7dd3eb8c3c9076aebb241c773eeebceea432a2aac2dc7cf81ef97425c"
     },
     {
       "path": "loading/logo-handwriting.webp",
@@ -1439,478 +1438,8 @@
     },
     {
       "path": "site-assets.json",
-      "bytes": 55891,
-      "sha256": "1ec93375b92abfd01546e28126d334d8a861978d1798004ac3e1c04950413821"
-    }
-  ],
-  "excludedInputFiles": [
-    {
-      "path": "assets/site-1SVYbpM5.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-3EeSyZob.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-akMAaCj6.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-B_piH-gD.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-B5tPhcw8.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-B67YUDeS.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-B6SrdFoS.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-B7vR-RJT.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-B8VapF58.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-B8YLw7YH.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BA9b8ED_.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BAzxvY4B.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Bb5hzrUp.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Bd8owpeU.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BFOhtHl3.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BhgOGVRU.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BHh6_Fi4.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Bim9UAxG.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BIorew8v.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BjUBbqUY.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BjWLxww-.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BlStb1mw.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BMqQ5pXK.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BMQyrPmY.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BnPCV5El.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BPpGMD0r.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BrA5BojZ.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Bt7z15kh.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BvjT-mvU.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BWn5U16G.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-BzZzUEdd.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-C2E5JoyY.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-C5uF4zX4.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-C8rGGTLA.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-C8SOpRPx.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-CAIBVQKk.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Cd_LzLB9.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-CdairlV1.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Cfagfo_7.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-CHfwBZAX.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Ciyf_H28.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-CjCAGQ-L.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-CL_cbEel.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-COjDW5R7.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-CqZWPypr.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-CrAn0hIa.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-CTeP1GRF.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Ctin3LW-.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-cUMT3UCz.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-CUOL256G.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Cxh3w5ik.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-CXMXguEg.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-D_YXXErY.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-D-y8l1__.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-D45UWiHm.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Dam4sfE-.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Dawbe893.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DDWbD93R.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DfFtl3FL.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DggY8Pbo.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DGW5RWEJ.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DGyztdtv.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DIrKp2co.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DMbdqN6I.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DnRbCmlF.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DozVmgip.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DPbGcFg5.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DQo0Z68C.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DrklohcF.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DsI7e96y.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DTMSrVix.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Dvl6TwOD.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DxBZNlnO.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-Dxsi-QJM.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DY2Gg8fK.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-DzVZBF23.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-fFr1_fUB.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-GAAYAuLM.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-gZpEoLv-.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-IYE7sBPQ.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-j8_fO3-W.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-jiJenCJM.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-kbJowPnZ.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-LgildkDp.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-MbjdQ3wn.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-oTvDx0lY.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-spaVPBcx.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-TNI9kA-1.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-UrkUVAr4.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-uYFVMghh.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-V29qm6Lc.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-w6WD4NdU.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-zi_Ih379.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/site-ZIzf4mnR.css",
-      "kind": "file"
-    },
-    {
-      "path": "assets/station-world-nested-worker-JCklGKCS.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/station-world-resident-worker-B2HOHTUE.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/station-world-resident-worker-BjvMTwzr.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/station-world-resident-worker-BrVS9kOA.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/station-world-resident-worker-COxdW7XI.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/station-world-resident-worker-DzMjXK_M.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/station-world-texture-worker-BhHvs6Vc.js",
-      "kind": "file"
-    },
-    {
-      "path": "assets/station-world-texture-worker-D6iyCFM3.js",
-      "kind": "file"
-    },
-    {
-      "path": "city/cinema-calibrated-v1/rear-no-foreground-desktop.raw.png",
-      "kind": "file"
-    },
-    {
-      "path": "city/cinema-reference-v1/chair-reveal-v2.raw.png",
-      "kind": "file"
-    },
-    {
-      "path": "city/cinema-reference-v1/detail-reveal-v1.raw.png",
-      "kind": "file"
-    },
-    {
-      "path": "city/cinema-reference-v1/limb-reveal-v1.raw.png",
-      "kind": "file"
-    },
-    {
-      "path": "city/cinema-reference-v1/manifest.json",
-      "kind": "file"
-    },
-    {
-      "path": "city/cinema-reference-v1/original.raw.png",
-      "kind": "file"
-    },
-    {
-      "path": "city/cinema-reference-v1/screen-reveal-v1.raw.png",
-      "kind": "file"
-    },
-    {
-      "path": "city/glass-reference-v1/detailReveal.raw.png",
-      "kind": "file"
-    },
-    {
-      "path": "city/glass-reference-v1/manifest.json",
-      "kind": "file"
-    },
-    {
-      "path": "city/glass-reference-v1/original.raw.png",
-      "kind": "file"
-    },
-    {
-      "path": "city/glass-reference-v1/rear.raw.png",
-      "kind": "file"
-    },
-    {
-      "path": "city/print-reference-v1/detailReveal.raw.png",
-      "kind": "file"
-    },
-    {
-      "path": "city/print-reference-v1/manifest.json",
-      "kind": "file"
-    },
-    {
-      "path": "city/print-reference-v1/original.raw.png",
-      "kind": "file"
-    },
-    {
-      "path": "city/print-reference-v1/rear.raw.png",
-      "kind": "file"
+      "bytes": 56306,
+      "sha256": "26089440cdb0f468b9f2d38f0933e568356e0d81f634389c00ac91023371565d"
     }
   ]
 }
