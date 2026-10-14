@@ -24,5 +24,14 @@
   "manifestSha256": "26089440cdb0f468b9f2d38f0933e568356e0d81f634389c00ac91023371565d",
   "preservedPreviousHashedAssets": true,
   "oldReleasePackagesDeletion": "blocked by policy, not retried",
-  "publication": "awaiting-push-and-online-verification"
+  "publication": "online-verified",
+  "onlineVerification": {
+    "payloadCommit": "6389e803f6c848157bddf0758b3c82e9d3d3c245",
+    "verifiedAt": "2026-10-14T13:52:04.616Z",
+    "changedFiles": 12,
+    "hashMismatches": 0,
+    "logoDownload": "900x600 RGBA PNG downloaded",
+    "portfolio": "slot03 selected and returned",
+    "physicalMobile": "pending"
+  }
 }
